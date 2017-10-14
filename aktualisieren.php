@@ -1,4 +1,3 @@
 <?php
-    $output = shell_exec("sudo git pull");
-    echo "Ausgabe: " . $output;
+    echo shell_exec("sudo git pull");
 ?>
