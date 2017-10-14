@@ -1,0 +1,23 @@
+h1 {
+    position: absolute;
+    width: 100vw;
+    height: 15vh;
+    background-color: lightgrey;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 15vh;
+    box-shadow: 0 0 5px black;
+}
+#Text {
+    position: absolute;
+    top: 15vh;
+    width: 90vw;
+    left: 5vw;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 5px black;
+    z-index: -1;
+    height: 85vh;
+}

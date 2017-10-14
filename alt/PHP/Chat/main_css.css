@@ -1,0 +1,146 @@
+#Hauptspalte {
+    width: 80%;
+    margin-left: 10vw;
+    position: relative;
+    box-shadow: 0 0 5px black;
+    background-color: lightgray;
+    min-height: 80vh;
+    padding-top: 20vh;
+    transition: width 300ms, margin-left 200ms;
+}
+header {
+    background-color: beige;
+    width: 100%;
+    z-index: 1;
+    height: 20vh;
+    box-shadow: 0 0px 5px black;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    transition: height 200ms, background-color 300ms;
+}
+p, img, form, b {
+    transition: opacity 200ms;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#chat {
+    opacity: 0;
+    transition: opacity 400ms;
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    right: 50%;
+    width: 90vw;
+    height: 80vh;
+    transform: translate(-50%,-55%);
+    z-index: -1;
+}
+#nachrichten {
+    width: 79%;
+    height: 79%;
+    background-color: white;
+    box-shadow: 0 0px 5px black;
+    border-radius: 1px;
+    top: 0;
+    position: absolute;
+    overflow: auto;
+}
+#eingabe {
+    top: 81%;
+    height: 19%;
+    background-color: white;
+    box-shadow: 0 0px 5px black;
+    border-radius: 1px;
+    width: 100%;
+    position: absolute;
+}
+#benutzer {
+    position: absolute;
+    width: 19%;
+    height: 79%;
+    background-color: white;
+    box-shadow: 0 0px 5px black;
+    border-radius: 1px;
+    top: 0;
+    right: 0;
+}
+* {
+    transition-timing-function: cubic-bezier(0.21, -0.15, 1, -0.68);
+}
+ul {
+    list-style: none;
+}
+li {
+    left: 1%;
+    width: 99%;
+    font-size: 80%;
+}
+.strich {
+    background-color: lightgray;
+    height: 100%;
+    left: 53%;
+    top: 0;
+    position: fixed;
+    width: .2%;
+}
+.textnachricht {
+    width: 65%;
+    min-height: 3vh;
+}
+.zeitautor {
+    left: 71%;
+    position: absolute;
+    transform: translate(0,-200%);
+}
+*:focus {
+    outline: none;
+}
+#eingabe form input[type="text"] {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    bottom: 1%;
+    width: 80%;
+    font-size: 200%;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    height: 94%;
+}
+#eingabe form input[type="button"] {
+    border-style: solid;
+    border-width: thin;
+    background-color: lightgray;
+    right: 1%;
+    width: 17%;
+    bottom: 1%;
+    top: 1%;
+    position: absolute;
+    font-size: 210%;
+}
+p {
+    word-wrap: break-word;
+}
+#loginb {
+    transition: opacity 200ms;
+}
+#status, label {
+    transition: opacity 200ms;
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+label {
+    top: 20%;
+    right: 5%;
+    font-size: 150%;
+}
+#status {
+    right: 5%;
+    top: 50%;
+    height: 40%;
+    font-size: 120%;
+}

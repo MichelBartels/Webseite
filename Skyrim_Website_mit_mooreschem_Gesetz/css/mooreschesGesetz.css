@@ -1,0 +1,113 @@
+header {
+    text-align: center;
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 15vh;
+    background-color: rgb(224, 224, 255);
+    z-index: 1;
+    box-shadow: 0 2px 2px grey;
+}
+body {
+    background-color: rgb(234, 234, 255);
+}
+article {
+    position: absolute;
+    top: 20vh;
+    right: 0;
+    z-index: 0;
+    width: 100vw
+}
+.rechts p {
+    float: left;
+}
+.links p {
+    float: right;
+}
+img {
+    width:25vw;
+    height: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+}
+.rechts {
+    position: absolute;
+    right: 5vw;
+}
+.links {
+    position: absolute;
+    left: 5vw;
+}
+#Zeitung{
+    top: 50vh
+}
+p {
+    position: absolute;
+    width: 15vw
+}
+#Transistoren {
+    top: 100vh;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+#Transistoren_jetzt {
+    top: 150vh;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+#HNF_Transistor_Bild {
+    top: 180vh;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+img {
+    background-color: white;
+}
+.rechts p {
+    right: 30vw;
+}
+.links p {
+    left: 30vw;
+}
+#Informationen {
+    position: absolute;
+    top: 230vh;
+    left: 5vw;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+#mooresches_Gesetz_Generator {
+    position: absolute;
+    top: 270vh;
+    left: 5vw;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+input, button {
+    margin-top: 2vh;
+}
+input {
+    width: 40vw;
+}
+button {
+    width: 20vw;
+}
+p {
+    margin-bottom: 10vh;
+}
+#Startseite {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    background-color: lightgrey;
+    padding: 2vh 2vw;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    color: black;
+}

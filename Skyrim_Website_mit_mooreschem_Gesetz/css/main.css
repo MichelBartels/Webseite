@@ -1,0 +1,112 @@
+#Hauptspalte {
+    width: 80vw;
+    min-height: 100%;
+    margin-left: 10vw;
+    position: relative;
+    box-shadow: 0 0 5px black;
+    background-color: lightgray;
+    min-height: 100vh;
+}
+li {
+    display: inline;
+    transition: background-color 200ms;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #3b3b3b;
+    box-shadow: 0 0 5px black;
+
+}
+body {
+    background-color: black;
+}
+li a {
+    color: white;
+}
+li:hover {
+    background-color: chocolate
+}
+li:active {
+    background-color: aqua
+}
+img {
+    height: 25vh;
+    float: right
+}
+#nichtHeader {
+    z-index: 0
+}
+#Header {
+    background-color: beige;
+    width: 80vw;
+    z-index: 1;
+    box-shadow: 0 0px 5px black;
+}
+@media (min-width:630px) {
+    ul {
+        height: 7vh
+    }
+    li {
+        font-size: 3vh
+    }
+}
+@media (max-width:629px) {
+    ul {
+        height: 5vh
+    }
+    li {
+        font-size: 2vh
+    }
+    #nichtHeader {
+        top: 30vh
+    }
+}
+@media (min-width:485px) {
+    #nichtHeader {
+        top: 32vh
+    }
+}
+@media (max-width:484px) and (min-width:421px) {
+    #nichtHeader {
+        top: 35vh
+    }
+}
+@media (max-width:420px) {
+    #nichtHeader {
+        top: 40vh
+    }
+}
+p {
+    margin-left: 1vw;
+}
+img {
+    margin-right: 1vw
+}
+#Skyrim_Relief {
+    width: 50vw;
+}
+.Seite {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 10vw;
+    background-image: url(../Bilder/Hintergrund.jpg);
+    background-repeat: repeat-y;
+    background-size: 10vw auto;
+    overflow: hidden;
+    z-index: -1;
+}
+#rechts {
+    right: 0;
+}
+#links {
+    left: 0;
+}
+body {
+    margin: 0;
+}

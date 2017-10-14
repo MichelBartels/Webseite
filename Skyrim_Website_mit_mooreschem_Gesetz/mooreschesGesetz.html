@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Das mooresche Gesetz</title>
+        <link rel="stylesheet" href="css/mooreschesGesetz.css">
+        <script src="mooreschesGesetz.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Das mooresche Gesetz</h1>
+        </header>
+        <article>
+            <div class="links Bilder" id="Gordon_Moore">
+                <p>Gordon Moore(*1929) Mitbegr&uuml;nder von Intel</p>
+                <img src="Bilder/Gordon_Moore.jpg">
+            </div>
+            <div class="rechts Bilder" id="Zeitung">
+                <p>1965 hat Gordon Moore eine Regel zur vorraussichtlichen Entwicklung von Prozessoren in der Zeitschrift Society ver&ouml;ffentlicht</p>
+                <img src="Bilder/Society.jpg">
+            </div>
+            <div class="links Bilder" id="Transistoren">
+                <p>Er behauptete, dass die g&uuml;nstigsten Prozessoren immer doppelt so viele Komponenten haben, wie der g&uuml;nstigste Prozessor vor ein bis zwei Jahren</p>
+                <img src="Bilder/Transistoren.svg">
+            </div>
+            <div class="rechts Bilder" id="Transistoren_jetzt">
+                <p>Heutzutage ist allerdings umstritten, ob die Regel noch Geltung hat</p>
+                <img src="Bilder/Transistoren_jetzt.png">
+            </div>
+            <div class="links Bilder" id="HNF_Transistor_Bild">
+                <p>2005 hat das Heinz Nixdorf Museums Forum eine Chip-Pagode zum 40. Geburtstag des mooreschen Gesetzes aufgestellt</p>
+                <img src="Bilder/mooreschesGesetz.jpg">
+            </div>
+            <div id="Informationen">
+                <ul>
+                    <li>1965: erste Ver&ouml;ffentlichung der Regel von Gordon Moore in der Zeitschrift &#8222;Electronics&#8220;, damals hie&szlig; es noch die Komponenten w&uuml;rden sich j&auml;hrlich verdoppeln</li>
+                    <li>1970: Carver Meadbenutzt  als Erster den Begriff &#8222;mooresches Gesetz&#8220;</li>
+                    <li>1975: Gordon Moore korrigiert die Verdopelung auf alle zwei Jahre</li>
+                    <li>2007: Gordon Moore sagt Ende des Gesetzes voraus</li>
+                    <li>2008: Pat Gelsinger, der Chef von Intel, sagt G&uuml;ltigkeit des Gesetzes bis 2029 voraus
+                        <ul>
+                            <li>Das Gesetz ist nur eine Faustregel</li>
+                            <li>Es gibt unterschiedliche Formulierungen des Gesetzes:</li>
+                            <li>Manche meinen, dass es sich jedes Jahr verdoppelt</li>
+                            <li>Manche meinen, dass es sich alle 16 Monate verdoppelt</li>
+                            <li>Manche meinen, dass es sich alle zwei Jahre verdoppelt</li>
+                            <li>Manche meinen, dass das, was sich verdoppelt, die Transistoranzahl(manchmal auch pro Fl&auml;cheneinheit) ist</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Quelle: <a href="https://de.wikipedia.org/wiki/Mooresches_Gesetz">Wikipedia</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="mooresches_Gesetz_Generator">
+                <h4>Lass das mooresche Gesetz von deinem Computer selbst berechnen!</h4>
+                <input id="Komponente" type="number" placeholder="Anzahl der Komponente momentan"><br>
+                <input id="Jaehrliche_Verdoppelung" type="number" placeholder="J&auml;hrliche Verdoppelung in Monate(leer lassen f&uuml;r Standardwert)"><br>
+                <input id="Zeitraum" type="number" placeholder="Zeitraum bis zum Eintreten des Zeitpunkts, f&uuml;r den es berechnet werden soll, in Monate"><br>
+                <button id="Berechnen">Berechnen</button><p id="Ergebnis"></p>
+            </div>
+        </article>
+        <a id="Startseite" href="../index.html">Zur&uuml;ck zur Startseite</a>
+    </body>
+</html>

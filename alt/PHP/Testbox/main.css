@@ -1,0 +1,149 @@
+#Startseite {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    background-color: lightgrey;
+    padding: 2vh 2vw;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    color: black;
+    z-index: 10;
+}
+input[type=email], [type=password] {
+    width: 10vw;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: dimgrey;
+}
+input[type=email]:focus, [type=password]:focus {
+    outline-color: greenyellow;
+    outline-width: 5px;
+    width: 60vw;
+}
+input {
+    transition: outline-color 200ms, outline-width 200ms, width 200ms, background-color 200ms;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+body {
+    background-color: lightgray;
+}
+#main {
+    position: absolute;
+    width: 90vw;
+    right: 5vw;
+    left: 5vw;
+    top: 10%;
+    min-height: 90%;
+    background-color: darkgray;
+    box-shadow: 0 0 5px black;
+    z-index: -1;
+    padding-top: 10px;
+}
+h1 {
+    background-color: dimgrey;
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 5px black;
+    margin: 0;
+    line-height: 10vh;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    color: darkslategrey;
+    opacity: 1;
+}
+:-moz-placeholder {
+    color: darkslategrey;
+    opacity: 1;
+}
+::-moz-placeholder {
+    color: darkslategrey;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: darkslategrey;
+    opacity: 1;
+}
+input[type=email]:focus:invalid, [type=password]:focus:invalid {
+    background-color: red;
+}
+input[type=submit] {
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+}
+input[type=submit]:active {
+    background-color: lightgrey;
+    outline-color: grey;
+}
+#main, input {
+    padding: 7px 10px;
+}
+#Dateiname {
+    position: absolute;
+    background-color: #29a329;
+    width: 70vw;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    line-height: 10vh;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    font-size: 50px;
+}
+#Dateien {
+    position: absolute;
+    right: 0;
+    width: 30vw;
+    height: 100vh;
+    top: 0;
+    box-shadow: 0 0 10px black;
+    background-color: lightblue;
+}
+#Dateien ul {
+    list-style-type: none;
+}
+li ul li:before {
+    content: "↳"
+}
+textarea {
+    height: 90vh;
+    width: 70vw;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    padding: 15px 20px;
+    outline: none;
+    z-index: -1;
+    resize: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#Dateien button {
+    position: absolute;
+    bottom: 3vh;
+    left: 1vw;
+    width: 28vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 230, 0.3);
+    border: none;
+    outline: 0;
+    outline-style: solid;
+    outline-color: orange;
+    transition: background-color 200ms, outline-width 100ms;
+}
+#Dateien button:active {
+    background-color: grey;
+    outline-width: 2px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+#best_fitness {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+    font-size: 1000%;
+    text-align: center;
+}
+body, #main, pre {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(8, 16, 23);
+    width: 100%;
+}
+#main {
+    width: 80%;
+}
+#side {
+    width: 20%;
+    background-color: rgb(4, 4, 9);
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+#console {
+    text-align: left !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
