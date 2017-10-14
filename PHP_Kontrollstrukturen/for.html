@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <pre>
+            <code>
+&lt;?php<br>
+    $wiederholungen = 1000;<br>
+    for ($i = 1; $i < $wiederholungen; $i = $i + 1) {<br>
+        echo "&lt;p&gt;$i&lt;/p&gt;";<br>
+        echo "&lt;br&gt;";<br>
+    };<br>
+    //Alternative Syntax:<br>
+    $wiederholungen = 1000;<br>
+    for ($i = 1; $i < $wiederholungen + 1; $i = $i + 1):<br>
+        echo "&lt;p&gt;$i&lt;/p&gt;";<br>
+        echo "&lt;br&gt;";<br>
+    endfor;<br>
+?&gt;
+            </code>
+        </pre>
+        <a href="for.php">Testen</a>
+    </body>
+</html>

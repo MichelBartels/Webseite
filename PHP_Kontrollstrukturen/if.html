@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <pre>
+            <code>
+&lt;?php<br>
+    if (date("d") == "01") {<br>
+        echo "&lt;p&gt;Hallo,&lt;br&gt;klicke hier um an dem Gewinnspiel teilzunehmen&lt;/p&gt;";<br>
+    } else {<br>
+        if (date("d") == "30" || date("d") == "31") {<br>
+        echo "&lt;p&gt;Hallo,&lt;br&gt;leider ist das Gewinnspiel schon vorbei, aber du hast keinen Grund, traurig zu sein. Bald findet wieder ein neues statt&lt;/p&gt;";<br>
+        }<br>
+        else {<br>
+            echo "&lt;p&gt;Hallo,&lt;br&gt;leider ist das Gewinnspiel schon vorbei und du hast einen Grund, traurig zu sein, denn es dauert noch, bis du wieder an dem Gewinnspiel teilnehmen kannst.&lt;/p&gt;"<br>
+        }<br>
+    }<br>
+    //Alternative Schreibweise<br>
+    if (date("d") == "01"):<br>
+        echo "&lt;p&gt;Hallo,klicke hier um an dem Gewinnspiel teilzunehmen&lt;/p&gt;";<br>
+    elseif (date("d") == "30" || date("d") == "31"):<br>
+        echo "&lt;p&gt;Hallo,leider ist das Gewinnspiel schon vorbei, aber du hast keinen Grund, traurig zu sein. Bald findet wieder ein neues statt&lt;/p&gt;";<br>
+    else:<br>
+        echo "&lt;p&gt;Hallo,leider ist das Gewinnspiel schon vorbei und du hast einen Grund, traurig zu sein, denn es dauert noch, bis du wieder an dem Gewinnspiel teilnehmen kannst.&lt;/p&gt;";<br>
+    endif;<br>
+?&gt;
+            </code>
+        </pre>
+        <a href="if.php">Testen</a>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(96, 147, 172);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+#bilder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden; 
+    background-color: white;
+}
+#bilder img {
+    height: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#schatten {
+    box-shadow: inset 0 0 20px 2px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    z-index: 10;
+}
+#informationen {
+    box-shadow: inset 0 0 5px 2px black;
+    position: absolute;
+    top: 60vh;
+    width: 100vw;
+    right: 10vw;
+    height: 40vh;
+    z-index: 11;
+}
+#beschreibung {
+    bottom: 3%;
+    height: 94%;
+    left: 2%;
+    line-height: 130%;
+    font-size: 170%;
+    width: 73%;
+}
+#genauere_informationen {
+    right: 2%;
+    height: 70%;
+    overflow: hidden;
+    width: 20%;
+}
+p {
+    margin: 0;
+    position: absolute;
+    top: 3%;
+}
+#kaufen {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 15%;
+    right: 13%;
+    background-color: #212029;
+    outline-color: #7E4313;
+    outline-style: solid;
+    outline-width: 0;
+    transition: outline-width 200ms, background-color 300ms, color 100ms;
+}
+#kaufen:hover {
+    outline-width: 3px;
+    background-color: #DBDBDB;
+    color: black;
+}
+#kaufen:active {
+    background-color: #ADADAD;
+    outline-width: 5px;
+}
+img {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+img:first-child {
+    opacity: 1;
+}

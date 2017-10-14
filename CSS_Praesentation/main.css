@@ -1,0 +1,140 @@
+h1, h2 {
+	text-align: center;
+}
+header {
+	background-color: rgb(220, 220, 230);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 15vh;
+	z-index: 2;
+	box-shadow: 0 0 5px black;
+}
+body {
+	background-color: white;
+}
+article {
+	position: absolute;
+	top: 15vh;
+	left: 0;
+	right: 0;
+	transition: opacity 200ms;
+	background-color: rgb(240, 240, 250);
+	width: 80vw;
+	left: 10vw;
+	min-height: 83vh;
+	box-shadow: 0 0 5px black;
+	z-index: 1;
+	padding-top: 2vh;
+}
+#Seite1 {
+	opacity: 1;
+	z-index: 1;
+}
+#Seite2 {
+	opacity: 0;
+	z-index: 0;
+}
+#Seite3 {
+    opacity: 0;
+    z-index: 0;
+}
+input {
+	z-index: -1
+}
+textarea {
+	position: absolute;
+	margin-left: 1vw;
+	width: 37vw;
+	resize: none;
+	height: 29vh;
+	border: none;
+	box-shadow: 0 0 5px black;
+	padding: 0;
+	outline: none;
+	transition: box-shadow 200ms;
+	float: left;
+}
+#css {
+	top: 31vh
+}
+#Output {
+	float: right;
+    width: 37vw;
+	margin-right: 1vw;
+	background-color: white;
+	height: 60vh;
+	box-shadow: 0 0 5px black;
+	border: none;
+	padding: 0;
+}
+textarea:focus {
+	box-shadow: 0 0 20px black;
+}
+css {
+	opacity: 0;
+}
+#w3c {
+    width:30vw;
+
+}
+htmlcssbox {
+    position: relative;
+}
+.Weiter {
+    color: blue;
+    text-decoration: underline;
+}
+#Startseite {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    background-color: lightgrey;
+    padding: 2vh 2vw;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    color: black;
+    z-index: 10;
+}
+@media (max-height: 766px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+@media (max-height: 706px) {
+	h1 {
+		font-size: 25px;
+	}
+	article b {
+		font-size: 15px;
+	}
+	article {
+		font-size: 12px;
+	}
+}
+@media (max-height: 579px) {
+	h1 {
+		font-size: 22px;
+	}
+}
+@media (max-height: 525px) {
+	h1 {
+		font-size: 20px;
+	}
+}
+@media (max-height: 470px) {
+	h1 {
+		font-size: 17px;
+	}
+}
+@media (max-height: 392px) {
+	h1 {
+		font-size: 13px;
+	}
+}
+a {
+	cursor: pointer;
+}
