@@ -8,7 +8,7 @@
         <div>
             <h1>Ihre Eink&auml;fe</h1><br><br>
         </div>
-        <div>
+        <div id="Menu">
             <nav>
       <ul>
         <li><h2>Rubrik 1</h2></li>
