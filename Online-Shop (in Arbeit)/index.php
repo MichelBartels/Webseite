@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>B&B Architekten</title>
+        <title>B&B Architekten - Startseite</title>
         <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/index.css">
         <script src="Javascript/index.js"></script>
