@@ -63,8 +63,11 @@ text-decoration:underline;
     
     
     #Menu {
-    width: 20vw
-    height:100vw
+    width: 20vw;
+    height:100vw;
+        margin-left:ovw;
+        background-color:blue;
+        opacity:0.9;
         
     }
     
