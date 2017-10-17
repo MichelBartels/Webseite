@@ -8,6 +8,7 @@
         <div>
             <h1>Ihre Eink&auml;fe</h1><br><br>
         </div>
+        <div>
             <nav>
       <ul>
         <li><h2>Rubrik 1</h2></li>
@@ -21,7 +22,7 @@
         <li><a href="#">Beispiel 6</a></li>
       </ul>
     </nav>
-            
+        </div>    
         
     </body>
 </html>
