@@ -1,1 +1,8 @@
-
+h1 {
+    top: 5vh;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    width: 80vw;  
+text-decoration:underline;
