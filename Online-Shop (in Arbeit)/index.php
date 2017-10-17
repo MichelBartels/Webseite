@@ -7,6 +7,7 @@
         <script src="Javascript/index.js"></script>
         <script src="Ajax/Suche/suche.js"></script>
         <script src="Ajax/Warenkorb/warenkorb.js"></script>
+        <script src="Javascript/Werbung.js"></script>
     </head>
     <body>
         <werbung>
