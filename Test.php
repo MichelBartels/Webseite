@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link rel="stylesheets" href="Test.css">
+	<link rel="stylesheet" href="Test.css">
 </head>
 <body>
 <h1 id="Beispiel">Beispiel 4: Navigationsleiste mit Überschriften</h1>
