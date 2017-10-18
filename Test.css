@@ -1,0 +1,49 @@
+body {
+	font: normal 1em Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+	width: 10em;
+	margin: 0;
+	padding: 0.2em 0.8em 0.8em;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+nav li {
+	list-style: none;
+	margin: 0.4em;
+	padding: 0;
+}
+
+nav a,
+nav span,
+nav h2 {
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid blue;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px white inset;
+	color: gold;
+	background-color: royalblue;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav span {
+	color: royalblue;
+	background-color: gold;
+	border-color: gold;
+}
+
+nav h2 {
+	font-size: 1em;
+	margin: 1.1em 0 0;
+	color: black;
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: none;
+}
