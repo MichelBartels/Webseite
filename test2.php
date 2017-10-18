@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylsheet" href="test2.css">
+<link rel="stylesheet" href="test2.css">
 </head>
 <body>
 <div id="Seite">
