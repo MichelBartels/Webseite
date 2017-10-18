@@ -7,23 +7,15 @@
 <nav>
 	<ul>
 		<li>
-			<h2>Rubrik 1</h2>
+			<h2>B&B Architekten</h2>
 		</li>
-		<li><a href="#">Beispiel 1</a>
+		<li><a href="#">Startseite</a>
 		</li>
-		<li><a href="#">Beispiel 2</a>
+		<li><a href="#">zum Wahrenkorb</a>
 		</li>
-		<li><a href="#">Beispiel 3</a>
+		<li><a href="#">Anmeldung</a>
 		</li>
-		<li>
-			<h2>Rubrik 2</h2>
-		</li>
-		<li><span>aktuelle Seite</span>
-		</li>
-		<li><a href="#">Beispiel 5</a>
-		</li>
-		<li><a href="#">Beispiel 6</a>
-		</li>
+		<li><a href="#">Werbepartner</a>
 	</ul>
 </nav>
 </body>
