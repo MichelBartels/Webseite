@@ -3,7 +3,7 @@
 <link rel="stylsheet" href="test2.css">
 </head>
 <body>
-<div>
+<div id="Seite">
 Hier ist Text
 </div>
 </body>
