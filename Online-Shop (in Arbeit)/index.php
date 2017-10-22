@@ -5,7 +5,7 @@
     </head>
     <body>
         <div id="suche">
-            <input type="text">
+            <input type="text" placeholder="Suchen">
         </div>
     </body>
 </html>
