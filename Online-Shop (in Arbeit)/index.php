@@ -7,7 +7,7 @@
         <div id="suche">
             <input type="text" placeholder="Suchen">
         </div>
-        <div id="werbung">
+        <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
             <div class="werbeseite">
                 
             </div>
