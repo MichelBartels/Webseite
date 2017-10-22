@@ -13,4 +13,6 @@ body {
     padding: 10px;
     font-size: 30px;
     width: 90%;
+    display: flex;
+    flex: 1;
 }
