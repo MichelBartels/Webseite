@@ -24,3 +24,10 @@ body {
     width: 100%;
     background-color: #e6e5ef;
 }
+#begruessung {
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    width: 100vw;
+}
