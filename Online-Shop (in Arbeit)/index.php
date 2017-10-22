@@ -9,7 +9,7 @@
         </div>
         <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
             <div class="werbeseite">
-                <h1 id="begruessung">Sie befinden sich auf der Webseite von B&B, ihrem Partner für den Wohnungsbau</h1>
+                <h1 id="begruessung">Sie befinden sich auf der Webseite von B&amp;B, ihrem Partner für den Wohnungsbau</h1>
             </div>
         </div>
     </body>
