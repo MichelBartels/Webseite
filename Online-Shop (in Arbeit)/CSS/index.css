@@ -11,5 +11,6 @@ body {
 }
 #suche input {
     padding: 10px;
-    font-size: 10px;
+    font-size: 30px;
+    width: 90%;
 }
