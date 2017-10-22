@@ -1,4 +1,10 @@
 body {
-    background-color: blue;
-    
+    background-color: #d4d4da;
+    padding: 0;
+    margin: 0;
+}
+#suche {
+    margin: 0;
+    width: 100vw;
+    height: 15vh;
 }
