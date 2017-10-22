@@ -20,4 +20,6 @@ body {
 }
 #werbung {
     height: 40vh;
+    box-sizing: border-box;
+    width: 100%;
 }
