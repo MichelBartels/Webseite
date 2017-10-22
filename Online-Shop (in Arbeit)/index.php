@@ -7,5 +7,10 @@
         <div id="suche">
             <input type="text" placeholder="Suchen">
         </div>
+        <div id="werbung">
+            <div class="werbeseite">
+                
+            </div>
+        </div>
     </body>
 </html>
