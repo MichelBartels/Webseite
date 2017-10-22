@@ -9,6 +9,7 @@ body {
     height: 10vh;
     padding: 15px;
     box-sizing: border-box;
+    background-color: #5d414b;
 }
 #suche input {
     padding: 10px;
@@ -16,5 +17,4 @@ body {
     width: 100%;
     box-sizing: border-box;
     height: 100%;
-    background-color: #5d414b;
 }
