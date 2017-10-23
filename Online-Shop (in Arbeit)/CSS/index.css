@@ -36,11 +36,11 @@ body {
 .weiter_button {
     width: 5vh;
     height: 5vh;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 150);
 }
 #weiter_rechts {
-    background-image: url("../Bilder/Design/rechts.svg");
+    background-image: url(../Bilder/Design/rechts.svg);
 }
 #weiter_links {
-    background-image: url("../Bilder/Design/links.svg");
+    background-image: url(../Bilder/Design/links.svg);
 }
