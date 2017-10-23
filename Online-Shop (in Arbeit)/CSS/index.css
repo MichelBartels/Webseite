@@ -45,6 +45,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
+    cursor: pointer;
 }
 #weiter_rechts {
     background-image: url(../Bilder/Design/rechts.svg);
