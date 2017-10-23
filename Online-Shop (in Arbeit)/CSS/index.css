@@ -48,6 +48,7 @@ body {
 }
 #weiter_rechts {
     background-image: url(../Bilder/Design/rechts.svg);
+    right: 0;
 }
 #weiter_links {
     background-image: url(../Bilder/Design/links.svg);
