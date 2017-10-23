@@ -37,6 +37,10 @@ body {
     width: 5vh;
     height: 5vh;
     background-color: rgba(255, 255, 255, 150);
+    border-color: grey;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
 }
 #weiter_rechts {
     background-image: url(../Bilder/Design/rechts.svg);
