@@ -33,3 +33,13 @@ body {
 .werbeseite {
     overflow: hidden;
 }
+.weiter_button {
+    width: 5vh;
+    height: 5vh;
+}
+.weiter_rechts {
+    background-image: url("Bilder/Design/rechts.svg");
+}
+.weiter_links {
+    background-image: url("Bilder/Design/links.svg");
+}
