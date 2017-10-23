@@ -41,6 +41,10 @@ body {
     border-radius: 1px;
     border-width: 1px;
     border-style: solid;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 #weiter_rechts {
     background-image: url(../Bilder/Design/rechts.svg);
