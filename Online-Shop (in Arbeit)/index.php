@@ -11,6 +11,9 @@
             <div class="werbeseite" id="werbeseite_1">
                 <h1 id="begruessung">Sie befinden sich auf der Webseite von B&amp;B, ihrem Partner für den Wohnungsbau</h1>
             </div>
+            <div class="werbeseite" id="werbeseite_2">
+                <h2 id="qualitaet">Egal, ob Sie ein kleines Gartenh&auml;schen kaufen, oder eine riesige Villa: Bei uns k&ouml;nnen Sie sich immer auf die Qualit&auml;t unserer Produkte verlassen, denn wir benutzen nur die besten Materialien.
+            </div>
             <div id="weiter_rechts" class="weiter_button">
             </div>
             <div id="weiter_links" class="weiter_button">
