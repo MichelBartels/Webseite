@@ -96,6 +96,8 @@ body {
     width: 45%;
 }
 #geld {
+    position: absolute
     top: 45%;
     left: 5%;
+    width: 50%;
 }
