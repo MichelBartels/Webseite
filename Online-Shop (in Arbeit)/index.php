@@ -14,7 +14,7 @@
             <div class="werbeseite" id="werbeseite_2">
                 <h2 id="qualitaet">Egal, ob Sie sich ein kleines Gartenh&auml;uschen kaufen oder eine riesige Villa errichten lassen: Bei uns k&ouml;nnen Sie sich immer auf die Qualit&auml;t unserer Produkte verlassen, denn wir benutzen nur die besten Materialien.</h2>
                 <img id="ziegelsteine" src="Bilder/Design/ziegelsteine.png">
-                <h2 id="preis">Wegen dieser Qualit&auml;t k&ouml;nnen wir es uns leisten, unsere Geb&auml;de f&uuml;r 160% des Normalpreises zu verkaufen, aber uns liegt das Wohl der Kunden am Herzen und daher versichern wir Ihnen, unser Geb&auml;ude zu einem Preis von 80% des Normalpreises anzubieten.</h2>
+                <h2 id="preis">Wegen dieser Qualit&auml;t k&ouml;nnen wir es uns leisten, unsere Geb&auml;ude f&uuml;r 160% des Normalpreises zu verkaufen, aber uns liegt das Wohl der Kunden am Herzen und daher versichern wir Ihnen, unser Geb&auml;ude zu einem Preis von 80% des Normalpreises anzubieten.</h2>
                 <img src="Bilder/Design/geld.png">
             </div>
             <div id="weiter_rechts" class="weiter_button">
