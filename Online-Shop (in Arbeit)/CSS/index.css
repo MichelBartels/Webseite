@@ -65,5 +65,5 @@ body {
 }
 #werbeseite_1 {
     background-image: url(../Bilder/Design/Werbung.jpg);
-    background-position: cover;
+    background-size: cover;
 }
