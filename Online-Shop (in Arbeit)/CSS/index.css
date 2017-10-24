@@ -28,9 +28,9 @@ body {
 #begruessung {
     margin: 0;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 100vw;
-    text-shadow: 0 0 10px white;
+    text-shadow: 4px 4px 10px black;
 }
 .werbeseite {
     overflow: hidden;
