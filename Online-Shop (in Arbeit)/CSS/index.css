@@ -54,3 +54,10 @@ body {
 #weiter_links {
     background-image: url(../Bilder/Design/links.svg);
 }
+.hintergrund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
