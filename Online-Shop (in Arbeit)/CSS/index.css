@@ -34,6 +34,11 @@ body {
 }
 .werbeseite {
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 .weiter_button {
     width: 5vh;
@@ -68,7 +73,5 @@ body {
     background-image: url(../Bilder/Design/Werbung.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100%;
-    width: 100%;
     opacity: 0;
 }
