@@ -1,3 +1,4 @@
+
 body {
     background-color: #1e2529;
     padding: 0;
@@ -66,4 +67,6 @@ body {
 #werbeseite_1 {
     background-image: url(../Bilder/Design/Werbung.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
