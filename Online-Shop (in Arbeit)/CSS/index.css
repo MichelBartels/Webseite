@@ -89,3 +89,9 @@ body {
     font-size: 20px;
     text-align: center;
 }
+#preis {
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    width: 40%;
+}
