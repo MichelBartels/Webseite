@@ -10,7 +10,7 @@
         <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
             <div class="werbeseite">
                 <h1 id="begruessung">Sie befinden sich auf der Webseite von B&amp;B, ihrem Partner für den Wohnungsbau</h1>
-                <img src="Bilder/Design/Werbung.jpg">
+                <img src="Bilder/Design/Werbung.jpg" class="hintergrund">
             </div>
             <div id="weiter_rechts" class="weiter_button">
             </div>
