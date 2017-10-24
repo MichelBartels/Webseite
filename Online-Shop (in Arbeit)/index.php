@@ -13,7 +13,7 @@
             </div>
             <div class="werbeseite" id="werbeseite_2">
                 <h2 id="qualitaet">Egal, ob Sie sich ein kleines Gartenh&auml;uschen kaufen oder eine riesige Villa errichten lassen: Bei uns k&ouml;nnen Sie sich immer auf die Qualit&auml;t unserer Produkte verlassen, denn wir benutzen nur die besten Materialien.</h2>
-                <img src="Bilder/Design/ziegelsteine.png">
+                <img id="ziegelsteine.png" src="Bilder/Design/ziegelsteine.png">
             </div>
             <div id="weiter_rechts" class="weiter_button">
             </div>
