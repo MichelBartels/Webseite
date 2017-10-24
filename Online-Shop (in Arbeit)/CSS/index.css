@@ -82,6 +82,7 @@ body {
     text-align: center;
 }
 #ziegelsteine {
-    margin-left: 5vw;
+    position: absolute;
+    right: 1vw;
     width: 50vw;
 }
