@@ -1,8 +1,8 @@
-
 body {
     background-color: #1e2529;
     padding: 0;
     margin: 0;
+    z-index: -20;
 }
 #suche {
     margin: 0;
