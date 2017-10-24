@@ -75,3 +75,8 @@ body {
     background-position: center center;
     opacity: 0;
 }
+#qualitaet {
+    margin-left: 1vw;
+    width: 40vw;
+    font-size: 5px;
+}
