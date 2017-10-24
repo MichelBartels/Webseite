@@ -66,7 +66,7 @@ body {
 #werbeseite_1 {
     background-image: url(../Bilder/Design/Werbung.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
     height: 100%;
     width: 100%;
 }
