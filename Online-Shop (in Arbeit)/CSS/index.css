@@ -84,6 +84,6 @@ body {
 #ziegelsteine {
     position: absolute;
     right: 1vw;
-    top: 0;
+    top: -5vh;
     width: 50vw;
 }
