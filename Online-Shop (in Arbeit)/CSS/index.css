@@ -108,7 +108,8 @@ footer {
     width: 100%;
 }
 #copyright {
-    margin-left: 45vw;
+    position: absolute;
+    right: 0;
 }
 ul li {
     display: inline;
@@ -122,6 +123,5 @@ ul {
     opacity: 0;
 }
 .werbeseite:first-child {
-    position: absolute;
-    right: 0;
+    opacity: 1;
 }
