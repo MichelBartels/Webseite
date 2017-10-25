@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="CSS/index.css">
         <script src="Javascript/index.js" defer></script>
+        <script src="Ajax/Suche/suche.js"></script>
     </head>
     <body>
         <div id="suche">
