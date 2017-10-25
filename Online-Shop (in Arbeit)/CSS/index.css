@@ -122,5 +122,6 @@ ul {
     opacity: 0;
 }
 .werbeseite:first-child {
-    opacity: 1;
+    position: absolute;
+    right: 0;
 }
