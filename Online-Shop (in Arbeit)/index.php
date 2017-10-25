@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="suche">
-            <input type="text" placeholder="Suchen">
+            <input type="text" placeholder="Suchen" id="suchfeld">
         </div>
         <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
             <div class="werbeseite" id="werbeseite_1">
