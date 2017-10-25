@@ -127,4 +127,6 @@ ul {
     box-sizing: border-box;
     width: 100%;
     overflow: hidden;
+    top: 10vh;
+    left: 0;
 }
