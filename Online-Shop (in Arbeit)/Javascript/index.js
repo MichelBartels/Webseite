@@ -9,17 +9,21 @@ weiter_rechts.addEventListener("click", function() {
     if (erste_seite_sichtbar) {
         erste_seite.style["opacity"] = 0
         zweite_seite.style["opacity"] = 1
+        erste_seite_sichtbar = false
     } else {
         erste_seite.style["opacity"] = 1
         zweite_seite.style["opacity"] = 0
+        erste_seite_sichtbar = true
     }
 })
 weiter_links.addEventListener("click", function() {
     if (erste_seite_sichtbar) {
         erste_seite.style["opacity"] = 0
         zweite_seite.style["opacity"] = 1
+        erste_seite_sichtbar = false
     } else {
         erste_seite.style["opacity"] = 1
         zweite_seite.style["opacity"] = 0
+        erste_seite_sichtbar = true
     }
 })
