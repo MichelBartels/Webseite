@@ -24,6 +24,8 @@
             <div id="weiter_links" class="weiter_button">
             </div>
         </div>
+        <div id="suchergebnisse">
+        </div>
         <footer>
             <ul>
                 <li><a>Impressum</a></li>
