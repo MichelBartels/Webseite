@@ -22,5 +22,8 @@
             <div id="weiter_links" class="weiter_button">
             </div>
         </div>
+        <div id="copyright">
+            
+        </div>
     </body>
 </html>
