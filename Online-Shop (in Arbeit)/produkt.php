@@ -51,7 +51,7 @@
                 Anzahl an Schlafzimmern: <?php
                     echo $anfrage["AnzahlSchlafzimmer"];
                 ?><br>
-                Verbleibende H&auml;ser: <?php
+                Verbleibende H&auml;user: <?php
                     echo $anfrage["VerbleibendeHaeuser"];
                 ?><br>
                 Preis: <?php
