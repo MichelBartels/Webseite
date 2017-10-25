@@ -22,8 +22,14 @@
             <div id="weiter_links" class="weiter_button">
             </div>
         </div>
-        <div id="copyright">
-            
-        </div>
+        <footer>
+            <ul>
+                <li><a>Impressum</a></li>
+                <li><a>Kontakt</a></li>
+                <li id="copyright">&copy; <?php
+                    echo date("Y");
+                    ?> B&amp;B Architekten - Alle Rechte vorbehalten</li>
+            </ul>
+        </footer>
     </body>
 </html>
