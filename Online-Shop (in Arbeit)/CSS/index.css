@@ -103,13 +103,13 @@ body {
 }
 footer {
     position: absolute;
-    top: 80vh;
+    top: 95vh;
     left: 0;
-    height: 20vh;
+    height: 5vh;
     width 100%;
 }
 #copyright {
-    margin-left: 80vw;
+    margin-left: 60vw;
 }
 ul li {
     display: inline;
