@@ -5,7 +5,6 @@ let zweite_seite = document.getElementById("werbeseite_2")
 let suchfeld = document.getElementById("suchfeld")
 let werbung_die_nicht_von_adblockern_geblockt_werden_soll = document.getElementById("werbung_die_nicht_von_adblockern_geblockt_werden_soll")
 let footer = document.querySelector("footer")
-let li = document.getElementsByTagName("li")
 erste_seite.style["transition"] = "opacity 200ms"
 zweite_seite.style["transition"] = "opacity 200ms"
 let erste_seite_sichtbar = true
@@ -32,6 +31,7 @@ weiter_links.addEventListener("click", function() {
     }
 })
 suchfeld.addEventListener("focus", function() {
+    let li = document.getElementsByTagName("li")
     werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["transition"] = "opacity 200ms"
     werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["opacity"] = 0
     footer.style["transition"] = "background-color 200ms"
