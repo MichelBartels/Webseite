@@ -73,7 +73,6 @@ body {
     background-image: url(../Bilder/Design/Werbung.jpg);
     background-size: cover;
     background-position: center center;
-    opacity: 0;
 }
 #qualitaet {
     margin-left: 1vw;
@@ -113,7 +112,12 @@ footer {
 }
 ul li {
     display: inline;
+    text-align: center;
 }
 ul {
     margin: 5px;
+}
+.werbeseite {
+    opacity: 0;
+    transition: opacity 200ms;
 }
