@@ -32,7 +32,7 @@ weiter_links.addEventListener("click", function() {
         erste_seite_sichtbar = true
     }
 })
-suchfeld.addEventListener("change", function() {
+suchfeld.addEventListener("input", function() {
     if (!suchmodus) {
         werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["transition"] = "opacity 200ms"
         werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["opacity"] = 0
