@@ -120,5 +120,7 @@ ul {
 }
 .werbeseite {
     opacity: 0;
-    transition: opacity 200ms;
+}
+.werbeseite:first-child {
+    opacity: 1;
 }
