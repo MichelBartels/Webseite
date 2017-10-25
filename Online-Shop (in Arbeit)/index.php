@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS/index.css">
+        <script src="Javascript/index.js" defer></script>
     </head>
     <body>
         <div id="suche">
