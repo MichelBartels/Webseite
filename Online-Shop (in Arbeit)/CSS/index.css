@@ -113,5 +113,7 @@ footer {
 }
 ul li {
     display: inline;
-    margin: 2px;
+}
+ul {
+    margin: 5px;
 }
