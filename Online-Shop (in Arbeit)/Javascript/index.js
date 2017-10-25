@@ -37,6 +37,7 @@ suchfeld.addEventListener("focus", function() {
     footer.style["transition"] = "background-color 200ms"
     footer.style["background-color"] = "white"
     for (item in li) {
+        console.log(item)
         item.style["transition"] = "color 100ms"
         item.style["color"] = "white"
     }
