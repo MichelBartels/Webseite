@@ -131,3 +131,6 @@ ul {
     left: 0;
     position: absolute;
 }
+#suchergebnisse {
+    z-index: -1;
+}
