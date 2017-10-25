@@ -25,6 +25,9 @@
             </div>
         </div>
         <div id="suchergebnisse">
+            <div class="suchergebnis">
+                Ein tolles Haus: Es ist einfach wunderbar.
+            </div>
         </div>
         <footer>
             <ul>
