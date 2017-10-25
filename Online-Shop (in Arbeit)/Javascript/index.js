@@ -36,8 +36,8 @@ suchfeld.addEventListener("focus", function() {
     werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["opacity"] = 0
     footer.style["transition"] = "background-color 200ms"
     footer.style["background-color"] = "white"
-    for (item in li) {
-        console.log(item)
+    for (each_item in li) {
+        console.log(each_item)
         item.style["transition"] = "color 100ms"
         item.style["color"] = "white"
     }
