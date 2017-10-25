@@ -109,7 +109,7 @@ footer {
 }
 #copyright {
     position: absolute;
-    right: 0;
+    right: 4px;
 }
 ul li {
     display: inline;
