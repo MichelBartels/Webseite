@@ -113,6 +113,7 @@ footer {
 ul li {
     display: inline;
     text-align: center;
+    color: white;
 }
 ul {
     margin: 5px;
