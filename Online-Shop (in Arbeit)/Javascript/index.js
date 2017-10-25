@@ -2,6 +2,8 @@ let weiter_rechts = document.getElementById("weiter_rechts")
 let weiter_links = document.getElementById("weiter_links")
 let erste_seite = document.getElementById("werbeseite_1")
 let zweite_seite = document.getElementById("werbeseite_2")
+let suchfeld = document.getElementById("suchfeld")
+let werbung_die_nicht_von_adblockern_geblockt_werden_soll = document.getElementById("werbung_die_nicht_von_adblockern_geblockt_werden_soll")
 erste_seite.style["transition"] = "opacity 200ms"
 zweite_seite.style["transition"] = "opacity 200ms"
 let erste_seite_sichtbar = true
@@ -26,4 +28,8 @@ weiter_links.addEventListener("click", function() {
         zweite_seite.style["opacity"] = 0
         erste_seite_sichtbar = true
     }
+})
+suchfeld.addEventListener("focus", function() {
+    werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["transition"] = "opacity 200ms"
+    werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["opacity"] = 0
 })
