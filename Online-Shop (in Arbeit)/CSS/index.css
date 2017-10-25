@@ -134,3 +134,12 @@ ul {
 #suchergebnisse {
     z-index: -1;
 }
+.suchergebnis {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: lightblue;
+}
