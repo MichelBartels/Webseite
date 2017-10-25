@@ -129,4 +129,5 @@ ul {
     overflow: hidden;
     top: 10vh;
     left: 0;
+    position: absolute;
 }
