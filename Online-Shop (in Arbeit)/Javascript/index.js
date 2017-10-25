@@ -57,4 +57,18 @@ suchfeld.addEventListener("input", function() {
         suchmodus = false
     }
     let suchergebnisse = suchen(suchfeld.value)
+    function seite_aendern(seite) {
+        document.location.href = seite
+    }
+    let neuer_html_code = ""
+    suchergebnisse.forEach(function(ergebnis) {
+        neuer_html_code += '<div class="suchergebnis" id="suchergebnis_' + ergebnis["ID"] + '">' + ergebnis["Name"] + ": " + ergebnis["Beschreibung"] + "</div>"
+    })
+    html_suchergebnisse.innerHTML = neuer_html_code
+    let suchergebnis_nodes = document.getElementsByClassName("suchergebnis")
+    suchergebnisse.forEach(function(ergebnis) {
+        document.getElementById("suchergebnis_" + ergebnis["ID"]).addEventListener("click", function() {
+            seite_aendern("http://35.157.66.141/Webseite/Online-Shop%20(in%20Arbeit)/produkt.php?id=" + ergebnis["ID"])
+        })
+    })
 })
