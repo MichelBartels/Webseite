@@ -39,6 +39,6 @@ suchfeld.addEventListener("focus", function() {
     footer.style["background-color"] = "white"
     for (let i = 0; i < li.length; i++) {
         li[i].style["transition"] = "color 100ms"
-        li[i].style["color"] = "white"
+        li[i].style["color"] = "black"
     }
 })
