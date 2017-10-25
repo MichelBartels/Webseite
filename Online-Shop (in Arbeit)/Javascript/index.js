@@ -7,6 +7,7 @@ let werbung_die_nicht_von_adblockern_geblockt_werden_soll = document.getElementB
 let footer = document.querySelector("footer")
 let li = document.getElementsByTagName("li")
 let suchmodus = false
+let html_suchergebnisse = document.getElementById("suchergebnisse")
 erste_seite.style["transition"] = "opacity 200ms"
 zweite_seite.style["transition"] = "opacity 200ms"
 let erste_seite_sichtbar = true
@@ -42,5 +43,18 @@ suchfeld.addEventListener("input", function() {
             li[i].style["transition"] = "color 100ms"
             li[i].style["color"] = "black"
         }
+        html_suchergebnisse.style["z-index"] = 10
+        suchmodus = true
     }
+    if (suchmodus && suchfeld.value == "") {
+        werbung_die_nicht_von_adblockern_geblockt_werden_soll.style["opacity"] = 1
+        footer.style["transition"] = "background-color 200ms"
+        footer.style["background-color"] = "#1e2529"
+        for (let i = 0; i < li.length; i++) {
+            li[i].style["color"] = "white"
+        }
+        html_suchergebnisse.style["z-index"] = -1
+        suchmodus = false
+    }
+    let suchergebnisse = suchen(suchfeld.value)
 })
