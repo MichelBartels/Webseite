@@ -18,6 +18,7 @@
             let bilder_tag
             let aktuelles_bild
             let anzahl_bilder
+            let bilder
             window.addEventListener('DOMContentLoaded', function() {
                 <?php
                     $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
@@ -27,7 +28,7 @@
                     foreach ($bilder as $bild) {
                         $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . $bild;
                     }
-                    echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')\n";
+                    echo "bilder = JSON.parse('" . json_encode($Bilder) . "')\n";
                 ?>
                 bilder_tag = document.getElementById("bilder")
                 bilder_tag.style["backgroundImage"] = 'url("' + bilder[0] + '")'
