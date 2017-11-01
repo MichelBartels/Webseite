@@ -42,7 +42,7 @@
                     }
                     if (neues_bild < 0) {
                         neues_bild = anzahl_bilder - 1
-                    } else if (neues bild == anzahl_bilder) {
+                    } else if (neues_bild == anzahl_bilder) {
                         neues_bild = 0
                     }
                     bilder_tag.style["backgroundImage"] = 'url("' + bilder[neues_bild] + '")'
