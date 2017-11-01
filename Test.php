@@ -4,7 +4,6 @@
 </head>
 <body>
 <div>
-<h1 id="Beispiel">Beispiel 4: Navigationsleiste mit Überschriften</h1>
 <nav>
 	<ul>
 		<li>
