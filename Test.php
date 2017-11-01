@@ -17,6 +17,7 @@
 		</li>
 		<li><a href="#">Werbepartner</a>
 		<li>
+			<img src="Online-Shop (in Arbeit)/Bilder/Design/Logo Hochkant.png">
 		</li>
 	</ul>
 </nav>
