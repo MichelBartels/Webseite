@@ -35,7 +35,7 @@
                 aktuelles_bild = 0
                 anzahl_bilder = bilder.length
                 function weiter(rechts) {
-                    let neues_bild;
+                    let neues_bild = aktuelles_bild;
                     if (rechts) {
                         neues_bild++
                     } else {
