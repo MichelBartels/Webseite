@@ -14,20 +14,22 @@
             echo $name;
             ?>
         </title>
-        <script defer>
-            <?php
-                $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
-                unset($bilder[0]);
-                unset($bilder[1]);
-                $Bilder = array();
-                foreach ($bilder as $bild) {
-                    $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . $bild;
-                }
-                echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')";
-            ?>
-            let bilder_tag = document.getElementById("bilder")
-            bilder_tag.style["background-image"] = bilder[0]
-            let aktuelles_bild = 0
+        <script>
+            window.addEventListener('DOMContentLoaded', function() {
+                <?php
+                    $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
+                    unset($bilder[0]);
+                    unset($bilder[1]);
+                    $Bilder = array();
+                    foreach ($bilder as $bild) {
+                        $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . $bild;
+                    }
+                    echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')";
+                ?>
+                let bilder_tag = document.getElementById("bilder")
+                bilder_tag.style["background-image"] = bilder[0]
+                let aktuelles_bild = 0
+            }
         </script>
     </head>
     <body>
