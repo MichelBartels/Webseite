@@ -67,5 +67,10 @@
             <img id="rechts" src="Bilder/Design/rechts.svg">
             <img id="links" src="Bilder/Design/links.svg">
         </div>
+        <p id="beschreibung">
+            <?php
+                echo $anfrage["beschreibung"];
+            ?>
+        </p>
     </body>
 </html>
