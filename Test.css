@@ -15,8 +15,8 @@ nav li {
 	margin: 0.4em;
 	padding: 0;
 nav span {
-	color: lightblue;
-	background-color: white;
+	color: white;
+	background-color: lightblue;
 	border-color: gold;
 }
 nav a:focus,
@@ -43,8 +43,8 @@ nav h2 {
 	border: 1px solid blue;
 	border-radius: 10px;
 	box-shadow: 0 5px 10px white inset;
-	color: lightblue;
-	background-color: white;
+	color: white;
+	background-color: lightblue;
 }
 #Menue {
 	height: 100vw;
