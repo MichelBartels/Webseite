@@ -1,3 +1,4 @@
+echo 100;
 <!doctype html>
 <html>
     <head>
