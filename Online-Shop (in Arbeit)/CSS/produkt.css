@@ -7,8 +7,9 @@ h1 {
     margin: 0;
     padding: 30px;
     text-align: center;
+    vertical-align: middle;
     box-sizing: border-box;
-    height: 10vh;
+    height: 15vh;
 }
 body {
     margin: 0;
@@ -17,6 +18,6 @@ body {
 #bilder {
     width: 40vw;
     height: 50vh;
-    top: 10vh;
+    top: 15vh;
     position: absolute;
 }
