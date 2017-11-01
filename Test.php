@@ -4,10 +4,10 @@
 </head>
 <body>
 <div id="Menue">
-<nav>
+<nav id="Menue2">
 	<ul>
 		<li>
-			<h2>B&ampB Architekten</h2>
+		<h2>B&ampB Architekten</h2>
 		</li>
 		<li><a href="#">Startseite</a>
 		</li>
