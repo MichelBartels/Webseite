@@ -8,8 +8,15 @@ h1 {
     padding: 30px;
     text-align: center;
     box-sizing: border-box;
+    height: 10vh;
 }
 body {
     margin: 0;
     padding: 0;
+}
+#bilder {
+    width: 40vw;
+    height: 50vh;
+    top: 10vh;
+    position: absolute;
 }
