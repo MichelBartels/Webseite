@@ -15,6 +15,8 @@
             ?>
         </title>
         <script>
+            let bilder_tag
+            let aktuelles_bild
             window.addEventListener('DOMContentLoaded', function() {
                 <?php
                     $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
@@ -26,9 +28,9 @@
                     }
                     echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')\n";
                 ?>
-                let bilder_tag = document.getElementById("bilder")
+                bilder_tag = document.getElementById("bilder")
                 bilder_tag.style["background-image"] = bilder[0]
-                let aktuelles_bild = 0
+                aktuelles_bild = 0
             })
         </script>
     </head>
