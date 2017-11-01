@@ -20,5 +20,15 @@
             echo $name;
             ?>
         </h1>
+        <div id="bilder">
+            <?php
+                $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
+                unset($bilder[0]);
+                unset($bilder[1]);
+                foreach ($bilder as $bild) {
+                    echo '<img src="Bilder/Datenbank/' . $anfrage["Bild"] . "/" . $bild . '">';
+                }
+            ?>
+        </div>
     </body>
 </html>
