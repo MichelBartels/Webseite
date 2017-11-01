@@ -4,6 +4,9 @@ h1 {
     left: 0;
     width: 100vw;
     background-color: rgb(232, 232, 255);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
 }
 body {
     margin: 0;
