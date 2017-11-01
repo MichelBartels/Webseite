@@ -46,4 +46,5 @@ body {
     top: 15vh;
     width: 40vw;
     padding: 20px;
+    box-sizing: border-box;
 }
