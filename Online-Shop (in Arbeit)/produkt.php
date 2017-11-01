@@ -21,9 +21,9 @@
                 unset($bilder[1]);
                 $Bilder = array();
                 foreach ($bilder as $bild) {
-                    $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . "/" . $bild';
+                    $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . "/" . $bild;
                 }
-                echo "let Bilder = JSON.decode('" . json_encode($Bilder) . "');";
+                echo "let Bilder = JSON.decode('" . json_encode($Bilder) . "')";
             ?>
         </script>
     </head>
