@@ -15,8 +15,8 @@ nav li {
 	margin: 0.4em;
 	padding: 0;
 nav span {
-	color: royalblue;
-	background-color: gold;
+	color: lightblue;
+	background-color: white;
 	border-color: gold;
 }
 nav a:focus,
