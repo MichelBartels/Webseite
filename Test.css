@@ -19,6 +19,32 @@ nav span {
 	background-color: gold;
 	border-color: gold;
 }
+nav a:focus,
+nav a:hover,
+nav a:active,
+	
+nav h2 {
+	font-size: 1em;
+	margin: 1.1em 0 0;
+	color: black;
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: none;
+}
+}
 
+nav a,
+nav span,
+nav h2 {
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid blue;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px white inset;
+	color: gold;
+	background-color: royalblue;
+}
 
 
