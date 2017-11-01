@@ -17,6 +17,7 @@
         <script>
             let bilder_tag
             let aktuelles_bild
+            let anzahl_bilder
             window.addEventListener('DOMContentLoaded', function() {
                 <?php
                     $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
@@ -31,6 +32,28 @@
                 bilder_tag = document.getElementById("bilder")
                 bilder_tag.style["backgroundImage"] = 'url("' + bilder[0] + '")'
                 aktuelles_bild = 0
+                anzahl_bilder = bilder.length
+                function weiter(rechts) {
+                    let neues_bild;
+                    if (rechts) {
+                        neues_bild++
+                    } else {
+                        neues_bild--
+                    }
+                    if (neues_bild < 0) {
+                        neues_bild = anzahl_bilder - 1
+                    } else if (neues bild == anzahl_bilder) {
+                        neues_bild = 0
+                    }
+                    bilder_tag.style["backgroundImage"] = 'url("' + bilder[neues_bild] + '")'
+                    aktuelles_bild = neues_bild
+                }
+                document.getElementById("rechts").addEventListener("click", function() {
+                    weiter(true)
+                })
+                document.getElementById("links").addEventListener("click", function() {
+                    weiter(false)
+                })
             })
         </script>
     </head>
