@@ -20,4 +20,6 @@ body {
     height: 50vh;
     top: 15vh;
     position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
 }
