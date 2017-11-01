@@ -15,7 +15,7 @@ nav li {
 	margin: 0.4em;
 	padding: 0;
 nav span {
-	color: white;
+	color: gray;
 	background-color: lightblue;
 	border-color: gold;
 }
@@ -43,7 +43,7 @@ nav h2 {
 	border: 1px solid gray;
 	border-radius: 10px;
 	box-shadow: 0 5px 10px white inset;
-	color: white;
+	color: gray;
 	background-color: lightblue;
 }
 #Menue {
