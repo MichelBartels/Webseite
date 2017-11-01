@@ -24,7 +24,7 @@
                     foreach ($bilder as $bild) {
                         $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . $bild;
                     }
-                    echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')";
+                    echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')\n";
                 ?>
                 let bilder_tag = document.getElementById("bilder")
                 bilder_tag.style["background-image"] = bilder[0]
