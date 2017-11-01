@@ -39,3 +39,11 @@ body {
 #rechts {
     right: 0;
 }
+#beschreibung {
+    position: absolute;
+    left: 60vw;
+    height: 50vw;
+    top: 15vh;
+    width: 40vw;
+    padding: 20px;
+}
