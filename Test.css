@@ -50,6 +50,7 @@ nav h2 {
 	height: 100vw;
 	width: 20vw;
 	display: none;
+}
 span:hover + div{
 	display: block;
 }
@@ -65,4 +66,5 @@ span:hover + div{
 #knopf{
 	width: 5vw
 	height: 100vw
+	}
 		
