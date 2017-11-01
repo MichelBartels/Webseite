@@ -1,68 +1,42 @@
 <!doctype html>
 <html>
     <head>
-        <title>B&B Architekten - Startseite</title>
-        <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/index.css">
-        <script src="Javascript/index.js"></script>
+        <script src="Javascript/index.js" defer></script>
         <script src="Ajax/Suche/suche.js"></script>
-        <script src="Ajax/Warenkorb/warenkorb.js"></script>
-        <script src="Javascript/werbung.js"></script>
     </head>
     <body>
-        <werbung>
-            <werbeseite>
-                <img class="werbe_hintergrund" src="Bilder/Design/Werbung.jpg">
-                <div class="schatten"></div>
-            </werbeseite>
-        </werbung>
-        <div id="hintergrund"></div>
-        <div id="vordergrund">
-            <h1>Holen Sie sich jetzt die Wohnung Ihrer Tr&auml;ume</h3>
-            <input id="direktsuche" type="text" placeholder="Direktsuche"><br><br>
-            <div id="nichtdirektsuche">
-                <input class="nichtdirektsuche" id="groesse" type="number" placeholder="Gr&ouml;&szlig;e in m²">
-                <input class="nichtdirektsuche" id="zimmer" type="number" placeholder="Anzahl Zimmer">
-                <input class="nichtdirektsuche" id="preis" type="number" min="50000" max="1000000" step="10000" placeholder="Preis">
-                <input class="nichtdirektsuche" id="ort" type="text" placeholder="Ort">
-                <select class="nichtdirektsuche" name="stil" id="stil">
-                    <option selected disabled hidden>Stil ausw&auml;hlen</option>
-                    <option value="romantik">Romantik</option>
-                    <option value="renaissance">Renaissance</option>
-                    <option value="barock">Barock</option>
-                </select>
+        <div id="suche">
+            <input type="text" placeholder="Suchen" id="suchfeld">
+        </div>
+        <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
+            <div class="werbeseite" id="werbeseite_1">
+                <h1 id="begruessung">Sie befinden sich auf der Webseite von B&amp;B, ihrem Partner für den Wohnungsbau</h1>
+            </div>
+            <div class="werbeseite" id="werbeseite_2">
+                <h2 id="qualitaet">Egal, ob Sie sich ein kleines Gartenh&auml;uschen kaufen oder eine riesige Villa errichten lassen: Bei uns k&ouml;nnen Sie sich immer auf die Qualit&auml;t unserer Produkte verlassen, denn wir benutzen nur die besten Materialien.</h2>
+                <img id="ziegelsteine" src="Bilder/Design/ziegelsteine.png">
+                <h2 id="preis">Wegen dieser Qualit&auml;t k&ouml;nnen wir es uns leisten, unsere Geb&auml;ude f&uuml;r 160% des Normalpreises zu verkaufen, aber uns liegt das Wohl der Kunden am Herzen und daher versichern wir Ihnen, unser Geb&auml;ude zu einem Preis von 80% des Normalpreises anzubieten.</h2>
+                <img id="geld" src="Bilder/Design/geld.png">
+            </div>
+            <div id="weiter_rechts" class="weiter_button">
+            </div>
+            <div id="weiter_links" class="weiter_button">
             </div>
         </div>
-        <div id="produkte"></div>
-        <?php
-            session_start();
-            if (!empty($_SESSION["Warenkorb"])) {
-                echo <<<EOT
-                <div id="warenkorb">
-                <img src="Bilder/Design/warenkorb.svg">
-                <div id="liste">
-                    <table>
-                        <tr><th class="produktname">Name</th><th class="anzahl">Anzahl</th><th class="preis">Preis</th></tr>
-EOT;
-                        $mysql = new mysqli("diff9.tk", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
-                        if ($mysql->connect_error) {
-                            echo $mysql->connect_error;
-                        }
-                        $gesamt = 0;
-                        foreach ($_SESSION["Warenkorb"] as $id => $anzahl) {
-                            $anfrage = $mysql->query("SELECT Name, Preis FROM produkte WHERE ID = " . $id);
-                            $ergebnis = $anfrage->fetch_assoc();
-                            echo '<tr><td class="produktname">' . $ergebnis["Name"] . '</td><td class="anzahl">' . $anzahl . '</td><td class="preis">' . number_format($ergebnis["Preis"], 2, ",", ".") . ' €</td><td class="loeschen"><a href="warenkorb_leeren.php?id=' . $id . '&url=' . $_SERVER["REQUEST_URI"] . '">X</a></td></tr>';
-                            $gesamt += $ergebnis["Preis"] * $anzahl;
-                        }
-                        echo "</table>";
-                echo '<p id="gesamt">Gesamtkosten: ' . number_format($gesamt, 2, ",", ".") . "</p>";
-                echo <<<EOT
-                    <a href="bestellen.php">Jetzt bestellen!</a>
-                </div>
+        <div id="suchergebnisse">
+            <div class="suchergebnis">
+                Ein tolles Haus: Es ist einfach wunderbar.
             </div>
-EOT;
-            }
-        ?>
+        </div>
+        <footer>
+            <ul>
+                <li><a>Impressum</a></li>
+                <li><a>Kontakt</a></li>
+                <li id="copyright">&copy; <?php
+                    echo date("Y");
+                    ?> B&amp;B Architekten - Alle Rechte vorbehalten</li>
+            </ul>
+        </footer>
     </body>
 </html>

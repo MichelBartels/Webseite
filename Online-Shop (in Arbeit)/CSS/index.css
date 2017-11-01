@@ -1,189 +1,146 @@
-werbung {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
-h1 {
-    position: absolute;
-    top: 5vh;
-    color: rgb(0, 0, 0);
-    font-family: cursive;
-    text-align: center;
-    text-shadow: 0 0 10px black;
-    width: 100vw;
-}
 body {
-    background-color: lightgrey;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    background-color: #1e2529;
     padding: 0;
     margin: 0;
+    z-index: -20;
 }
-#hintergrund {
-    background-image: url("../Bilder/Design/Startseite-Hintergrund.jpg");
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%) sepia(100%) hue-rotate(-164deg) blur(7px) saturate(5);
-    z-index: -1;
-    transition: opacity 200ms;
-}
-#hintergrund, #vordergrund {
-    position: absolute;
-    top: 50vh;
-    left: 0;
-    height: 50vh;
-    width: 100vw;
-    padding: 0;
-}
-#direktsuche {
-    margin-top: 20vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 5px;
-    font-size: 5vh;
-    outline: none;
-    transition: width 100ms, margin-top 200ms;
-}
-#direktsuche_focus {
-    margin-top: -45vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 5px;
-    font-size: 5vh;
-    outline: none;
-    transition: opacity 200ms, width 100ms, margin-top 200ms;
-    width: 80vw;
-}
-#direktsuche:focus {
-    margin-top: -45vh;
-    width: 80vw;
-}
-#direktsuche:focus ~ #nichtdirektsuche {
-    opacity: 0;
-}
-#direktsuche:hover:focus {
-    font-size: 5vh;
-}
-.nichtdirektsuche {
-    margin-top: 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: block;
-    padding: 3px;
-    font-size: 3vh;
-    float: right;
-    min-width: 10px;
-    max-width: 80vw;
-}
-#nichtdirektsuche {
-    margin-top: 3vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90vw;
-    transition: opacity 200ms, width 100ms, margin-top 200ms;
-}
-input, select {
-    border: none;
-    box-shadow: 0 0 0 rgb(18, 0, 70);
-    transition: box-shadow 500ms;
-    outline-style: solid;
-    outline-color: #a9a6a6;
-    outline-width: 1px;
-}
-input:focus, select:focus {
-    outline: none;
-    box-shadow: 0 0 30px rgb(18, 190, 70);
-}
-select:invalid {
-    color: gray;
-}
-.werbe_hintergrund {
-    position: absolute;
+#suche {
+    margin: 0;
     width: 100%;
-    bottom: -25vh;
-    filter: brightness(50%) grayscale(0.7);
+    height: 10vh;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #ada9aa;
 }
-werbeseite {
-    position: absolute;
-    top: 0;
+#suche input {
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+#werbung_die_nicht_von_adblockern_geblockt_werden_soll {
+    background-color: #e6e5ef;
+}
+#begruessung {
+    margin: 0;
+    text-align: center;
+    margin-top: 2%;
     width: 100vw;
-    height: 50vh;
+    text-shadow: 4px 4px 10px black;
 }
-.schatten {
-    box-shadow: inset 0 0 20px 20px black;
-    z-index: 10;
+.werbeseite {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
-    height: 50vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
-#produkte {
-    z-index: -5;
+.weiter_button {
+    width: 5vh;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 150);
+    border-color: grey;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
     position: absolute;
-    height: 80vh;
-    top: 20vh;
-    left: 0;
-    width: 100vw;
-}
-.produkt {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80vw;
-    margin-top: 2vh;
-    background-color: #40474D;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
+    top: 0;
+    bottom: 0;
     cursor: pointer;
 }
-.produkt_link {
-    text-decoration: none;
-    color: #D5DEE2;
+#weiter_rechts {
+    background-image: url(../Bilder/Design/rechts.svg);
+    right: 0;
 }
-#warenkorb {
-    position: fixed;
-    width: 10vh;
-    height: 10vh;
-    top: 5vh;
-    right: 6vh;
-    z-index: 10;
+#weiter_links {
+    background-image: url(../Bilder/Design/links.svg);
 }
-#liste {
-    position: fixed;
-    width: 50vh;
-    height: 27vh;
-    right: 7vh;
-    background-color: #FFFFFF;
-    outline-color: #272727;
-    outline-width: 3px;
-    outline-style: solid;
+.hintergrund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+#werbeseite_1 {
+    background-image: url(../Bilder/Design/Werbung.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#qualitaet {
+    margin-left: 1vw;
+    width: 40vw;
+}
+#ziegelsteine {
+    position: absolute;
+    right: 8vw;
+    top: -5vh;
+    width: 40vw;
+}
+#qualitaet, #preis {
+    font-size: 20px;
+    text-align: center;
+}
+#preis {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    width: 45%;
+}
+#geld {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 20vw;
+}
+footer {
+    position: absolute;
+    top: 95vh;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+}
+#copyright {
+    position: absolute;
+    right: 4px;
+}
+ul li {
+    display: inline;
+    text-align: center;
+    color: white;
+}
+ul {
+    margin: 5px;
+}
+.werbeseite {
     opacity: 0;
-    transition: opacity 100ms;
-    overflow: scroll;
 }
-#warenkorb:hover > #liste {
+.werbeseite:first-child {
     opacity: 1;
 }
-.produktname {
-    width: 60%;
+#suchergebnisse, #werbung_die_nicht_von_adblockern_geblockt_werden_soll {
+    height: 85vh;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    top: 10vh;
+    left: 0;
+    position: absolute;
 }
-.preis {
-    width: 35%;
+#suchergebnisse {
+    z-index: -1;
 }
-.loeschen {
-    background-color: red;
-    padding: 5px;
-}
-a {
-    text-decoration: none;
-    color: black;
+.suchergebnis {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: lightblue;
+    cursor: pointer;
 }
