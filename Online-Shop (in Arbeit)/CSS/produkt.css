@@ -24,3 +24,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#links {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    width: 5vw;
+    height: 5vw;
+}
+#rechts {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+    width: 5vw;
+    height: 5vw;
+}
