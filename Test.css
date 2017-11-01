@@ -49,6 +49,9 @@ nav h2 {
 #Menue {
 	height: 100vw;
 	width: 20vw;
+	display: none;
+span:hover + div{
+	display: block;
 }
 #Menue2 {
 	height: 100vw;
