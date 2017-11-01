@@ -14,7 +14,7 @@
             echo $name;
             ?>
         </title>
-        <script>
+        <script defer>
             <?php
                 $bilder = scandir("Bilder/Datenbank/" . $anfrage["Bild"]);
                 unset($bilder[0]);
@@ -23,8 +23,11 @@
                 foreach ($bilder as $bild) {
                     $Bilder[] = "Bilder/Datenbank/" . $anfrage["Bild"] . $bild;
                 }
-                echo "let Bilder = JSON.parse('" . json_encode($Bilder) . "')";
+                echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')";
             ?>
+            let bilder_tag = document.getElementById("bilder");
+            bilder_tag.style["background-image"] = bilder[0];
+            let aktuelles_bild = 0;
         </script>
     </head>
     <body>
