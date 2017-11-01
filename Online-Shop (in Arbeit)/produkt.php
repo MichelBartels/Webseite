@@ -40,8 +40,8 @@
             ?>
         </h1>
         <div id="bilder">
-            <img src="Bilder/Design/rechts.svg">
-            <img src="Bilder/Design/links.svg">
+            <img id="rechts" src="Bilder/Design/rechts.svg">
+            <img id="links" src="Bilder/Design/links.svg">
         </div>
     </body>
 </html>
