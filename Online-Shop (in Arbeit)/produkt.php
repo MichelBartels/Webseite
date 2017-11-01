@@ -29,7 +29,7 @@
                 let bilder_tag = document.getElementById("bilder")
                 bilder_tag.style["background-image"] = bilder[0]
                 let aktuelles_bild = 0
-            }
+            })
         </script>
     </head>
     <body>
