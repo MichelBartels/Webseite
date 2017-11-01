@@ -8,8 +8,15 @@
             }
             $anfrage = $mysql->query("SELECT * FROM produkte WHERE ID = " . $_GET["id"]);
             $anfrage = $anfrage->fetch_assoc();
-            echo $anfrage["Name"];
+            $name $anfrage["Name"];
+            echo $name;
             ?>
         </title>
     </head>
+    <body>
+        <h1><?php
+            echo $name;
+            ?>
+        </h1>
+    </body>
 </html>
