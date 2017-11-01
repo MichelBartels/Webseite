@@ -29,7 +29,7 @@
                     echo "let bilder = JSON.parse('" . json_encode($Bilder) . "')\n";
                 ?>
                 bilder_tag = document.getElementById("bilder")
-                bilder_tag.style["background-image"] = bilder[0]
+                bilder_tag.style["backgroundImage"] = bilder[0]
                 aktuelles_bild = 0
             })
         </script>
