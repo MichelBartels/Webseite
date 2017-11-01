@@ -69,7 +69,7 @@
         </div>
         <p id="beschreibung">
             <?php
-                echo $anfrage["beschreibung"];
+                echo $anfrage["Beschreibung"];
             ?>
         </p>
     </body>
