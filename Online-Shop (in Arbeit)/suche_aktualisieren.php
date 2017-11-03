@@ -10,7 +10,7 @@
     }
     $suchinformationen = array();
     for ($i = 0; $i < count($beschreibung); $i++) {
-        $mysql->query("UPDATE produkte SET Suchinformationen = '" . json_encode(array_count_values(explode(" ", strtolower(str_replace(",", "", str_replace(".", " ", ["Beschreibung"][$i])))))) . "' WHERE ID = " . ($i + 1) . ";";
+        $mysql->query("UPDATE produkte SET Suchinformationen = '" . json_encode(array_count_values(explode(" ", strtolower(str_replace(",", "", str_replace(".", " ", ["Beschreibung"][$i])))))) . "' WHERE ID = " . ($i + 1);
     }
     $mysql->close();
 ?>
