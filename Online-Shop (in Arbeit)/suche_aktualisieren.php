@@ -9,8 +9,8 @@
         $beschreibung[] = $zeile;
     }
     for ($i = 0; $i < count($beschreibung); $i++) {
-        echo $beschreibung[$i];
-        $mysql->query("UPDATE produkte SET Suchinformationen = '" . json_encode(array_count_values(explode(" ", strtolower(str_replace(",", "", str_replace(".", " ", $beschreibung[$i])))))) . "' WHERE ID = " . ($i + 1) . ";");
+        echo $beschreibung[$i]["Beschreibung"];
+        $mysql->query("UPDATE produkte SET Suchinformationen = '" . json_encode(array_count_values(explode(" ", strtolower(str_replace(",", "", str_replace(".", " ", $beschreibung[$i]["Beschreibung"])))))) . "' WHERE ID = " . ($i + 1) . ";");
     }
     $mysql->close();
 ?>
