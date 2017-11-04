@@ -10,4 +10,5 @@
     }
     $mysql->close();
     echo json_encode($gesamt);
+    echo "a";
 ?>
