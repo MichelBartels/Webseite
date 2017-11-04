@@ -8,7 +8,7 @@
     while ($zeile = $anfrage->fetch_assoc()) {
         $produkte[] = $zeile;
     }
-    for ($i = 0; $i < count($beschreibung); $i++) {
+    for ($i = 0; $i < count($produkte); $i++) {
         $schluessel = array_keys($produkte);
         $gesamt = "";
         for ($i = 0; $i < count($schluessel); $i++) {
