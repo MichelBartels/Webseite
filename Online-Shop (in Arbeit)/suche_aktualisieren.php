@@ -10,6 +10,7 @@
     }
     for ($i = 0; $i < count($produkte); $i++) {
         $schluessel = array_keys($produkte);
+        print_r($schluessel);
         $gesamt = "";
         for ($i2 = 0; $i2 < count($schluessel); $i2++) {
             $gesamt .= " " . $produkte[$i][$schluessel[$i2]];
