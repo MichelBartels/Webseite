@@ -19,7 +19,7 @@ function suchen(suchtext) {
             let am_besten_passend = [Infinity, false]
             abfrage.forEach(function(element) {
                 element = element["Grundstueckgroesse"]
-                if (abs(element - groesse) < am_besten_passend[0]) {
+                if (Math.abs(element - groesse) < am_besten_passend[0]) {
                     am_besten_passend = [element - groesse, element["ID"]]
                 }
             })
