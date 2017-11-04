@@ -28,7 +28,7 @@ function suchen(suchtext) {
             }
         }
         for (let i2 = 0; i2 < abfrage.length; i2++) {
-            let abfrage_schluessel = Object.keys(abfrage[i2]["Suchinformationen"])
+            let abfrage_schluessel = Object.keys(JSON.parse(abfrage[i2]["Suchinformationen"]))
             for (let i3 = 0; i3 < abfrage_schluessel.length; i3++) {
                 if (abfrage_schluessel[i3] == suche_array[i]) {
                     passend[i2] = 1 || (passend[i2] + 1)
