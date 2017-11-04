@@ -10,5 +10,5 @@
     }
     $mysql->close();
     print_r($gesamt);
-    echo json_encode($gesamt);
+    echo json_encode($gesamt, JSON_UNESCAPED_UNICODE);
 ?>
