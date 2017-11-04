@@ -13,7 +13,7 @@ function suchen(suchtext) {
     let suche_array = suchtext.split(" ")
     let passend = {};
     for (let i = 0; i < suche_array.length; i++) {
-        suche_array[i] = toLowerCase(suche_array[i])
+        suche_array[i] = suche_array[i].toLowerCase()
         if (suche_array[i].endsWith("m") || suche_array[i].endsWith("m2") || suche_array[i].endsWith("m²") || suche_array[i].endsWith("M") || suche_array[i].endsWith("M2") || suche_array[i].endsWith("M²")) {
             let groesse = parseInt(suche_array[i])
             let am_besten_passend = [Inf, false]
