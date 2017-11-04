@@ -22,7 +22,7 @@ function suchen(suchtext) {
                 if (abs(element - groesse) < am_besten_passend[0]) {
                     am_besten_passend = [element - groesse, element["ID"]]
                 }
-            }
+            })
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
