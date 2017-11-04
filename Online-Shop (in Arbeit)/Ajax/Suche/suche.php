@@ -9,6 +9,6 @@
         $gesamt[] = $zeile;
     }
     $mysql->close();
+    print_r($gesamt);
     echo json_encode($gesamt);
-    echo "a";
 ?>
