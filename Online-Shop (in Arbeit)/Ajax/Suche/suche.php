@@ -11,5 +11,4 @@
     }
     $mysql->close();
     echo json_encode($gesamt, JSON_UNESCAPED_UNICODE);
-    echo json_last_error_msg();
 ?>
