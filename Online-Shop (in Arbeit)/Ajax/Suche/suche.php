@@ -9,6 +9,6 @@
         $gesamt[] = $zeile;
     }
     $mysql->close();
-    print_r($gesamt);
     echo json_encode($gesamt, JSON_UNESCAPED_UNICODE);
+    echo json_last_error_msg();
 ?>
