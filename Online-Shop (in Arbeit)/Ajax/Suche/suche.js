@@ -40,8 +40,9 @@ function suchen(suchtext) {
     let passende_haeuser = Object.keys(passend)
     let anzahl_passender_haeuser = passende_haeuser.length
     for (let i = 0; i < anzahl_passender_haeuser; i++) {
-        let schluessel = Object.keys(passende_haeuser)[Object.values(passende_haeuser).indexOf(groesster_wert_in_object(passende_haeuser))]
-        console.log(schluessel)
+        let groesster_wert = groesster_wert_in_object(passende_haeuser)
+        let schluessel = Object.keys(passende_haeuser)[Object.values(passende_haeuser).indexOf()]
+        console.log(groesster_wert)
         sortiert.push(abfrage[schluessel])
     }
     return sortiert
