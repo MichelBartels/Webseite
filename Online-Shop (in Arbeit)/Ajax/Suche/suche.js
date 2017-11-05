@@ -42,7 +42,6 @@ function suchen(suchtext) {
     for (let i = 0; i < anzahl_passender_haeuser; i++) {
         let groesster_wert = groesster_wert_in_object(passend)
         let schluessel = Object.keys(passend)[Object.values(passend).indexOf(groesster_wert)]
-        console.log(schluessel)
         sortiert.push(abfrage[schluessel])
         delete passend[schluessel]
     }
