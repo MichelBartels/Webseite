@@ -45,5 +45,8 @@ function suchen(suchtext) {
         console.log(schluessel)
         sortiert.push(abfrage[schluessel])
     }
+    if (sortiert == []) {
+        sortiert = abfrage
+    }
     return sortiert
 }
