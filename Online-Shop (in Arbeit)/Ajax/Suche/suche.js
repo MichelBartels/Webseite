@@ -42,7 +42,7 @@ function suchen(suchtext) {
     for (let i = 0; i < anzahl_passender_haeuser; i++) {
         let groesster_wert = groesster_wert_in_object(passende_haeuser)
         let schluessel = Object.keys(passende_haeuser)[Object.values(passende_haeuser).indexOf()]
-        console.log(groesster_wert)
+        console.log(passende_haeuser)
         sortiert.push(abfrage[schluessel])
     }
     return sortiert
