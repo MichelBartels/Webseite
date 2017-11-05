@@ -42,6 +42,6 @@ function suchen(suchtext) {
     for (let i = 0; i < anzahl_passender_haeuser; i++) {
         sortiert.push(abfrage[Object.keys(passende_haeuser)[Object.values(passende_haeuser).indexOf(groesster_wert_in_object(passende_haeuser))]])
     }
-    console.log(passend)
+    console.log(sortiert)
     return sortiert
 }
