@@ -18,9 +18,9 @@ function suchen(suchtext) {
             let groesse = parseInt(suche_array[i])
             let am_besten_passend = [Infinity, false]
             abfrage.forEach(function(element, index) {
-                element = element["Grundstueckgroesse"]
-                if (Math.abs(element - groesse) < am_besten_passend[0]) {
-                    am_besten_passend = [element - groesse, index + 1]
+                let differenz = element["Grundstueckgroesse"] - groesse
+                if (Math.abs(differenz) < am_besten_passend[0]) {
+                    am_besten_passend = [element - groesse, element["ID"]]
                 }
             })
             console.log(am_besten_passend)
