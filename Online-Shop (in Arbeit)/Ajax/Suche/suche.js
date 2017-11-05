@@ -17,8 +17,19 @@ function suchen(suchtext) {
         if (suche_array[i].endsWith("m") || suche_array[i].endsWith("m2") || suche_array[i].endsWith("m²") || suche_array[i].endsWith("M") || suche_array[i].endsWith("M2") || suche_array[i].endsWith("M²")) {
             let groesse = parseInt(suche_array[i])
             let am_besten_passend = [Infinity, false]
-            abfrage.forEach(function(element, index) {
+            abfrage.forEach(function(element) {
                 let differenz = element["Grundstueckgroesse"] - groesse
+                if (Math.abs(differenz) < am_besten_passend[0]) {
+                    am_besten_passend = [differenz, element["ID"] - 1]
+                }
+            })
+            console.log(am_besten_passend)
+            if (am_besten_passend[1]) {
+                passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
+            }
+            am_besten_passend = [Infinity, false]
+            abfrage.forEach(function(element) {
+                let differenz = element["Anzahlm2"] - groesse
                 if (Math.abs(differenz) < am_besten_passend[0]) {
                     am_besten_passend = [differenz, element["ID"] - 1]
                 }
