@@ -26,6 +26,7 @@ function suchen(suchtext) {
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
+            console.log(am_besten_passend)
             am_besten_passend = [Infinity, false]
             abfrage.forEach(function(element) {
                 let differenz = element["Anzahlm2"] - groesse
@@ -36,6 +37,7 @@ function suchen(suchtext) {
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
+            console.log(am_besten_passend)
         }
         for (let i2 = 0; i2 < abfrage.length; i2++) {
             let abfrage_schluessel = Object.keys(JSON.parse(abfrage[i2]["Suchinformationen"]))
