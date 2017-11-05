@@ -6,7 +6,7 @@ function datenbank_abfragen() {
     return rueckmeldung
 }
 function groesster_wert_in_object(object) {
-    return Math.max.apply(Math, object.values);
+    return Math.max.apply(Math, Object.values(object));
 }
 function suchen(suchtext) {
     let abfrage = datenbank_abfragen()
