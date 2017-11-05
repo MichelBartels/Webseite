@@ -20,7 +20,7 @@ function suchen(suchtext) {
             abfrage.forEach(function(element, index) {
                 let differenz = element["Grundstueckgroesse"] - groesse
                 if (Math.abs(differenz) < am_besten_passend[0]) {
-                    am_besten_passend = [differenz, element["ID"]]
+                    am_besten_passend = [differenz, element["ID"] - 1]
                 }
             })
             console.log(am_besten_passend)
