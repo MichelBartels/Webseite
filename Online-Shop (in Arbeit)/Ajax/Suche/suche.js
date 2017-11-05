@@ -16,7 +16,6 @@ function suchen(suchtext) {
         suche_array[i] = suche_array[i].toLowerCase()
         if (suche_array[i].endsWith("m") || suche_array[i].endsWith("m2") || suche_array[i].endsWith("m²") || suche_array[i].endsWith("M") || suche_array[i].endsWith("M2") || suche_array[i].endsWith("M²")) {
             let groesse = parseInt(suche_array[i])
-            console.log(groesse)
             let am_besten_passend = [Infinity, false]
             abfrage.forEach(function(element) {
                 element = element["Grundstueckgroesse"]
@@ -24,6 +23,7 @@ function suchen(suchtext) {
                     am_besten_passend = [element - groesse, element["ID"]]
                 }
             })
+            console.log(am_besten_passend)
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
