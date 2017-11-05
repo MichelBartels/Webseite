@@ -44,6 +44,7 @@ function suchen(suchtext) {
         let schluessel = Object.keys(passend)[Object.values(passend).indexOf(groesster_wert)]
         console.log(schluessel)
         sortiert.push(abfrage[schluessel])
+        delete passend[schluessel]
     }
     if (sortiert.length == 0) {
         sortiert = abfrage
