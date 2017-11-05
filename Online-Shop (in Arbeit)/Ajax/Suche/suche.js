@@ -23,7 +23,6 @@ function suchen(suchtext) {
                     am_besten_passend = [differenz, element["ID"] - 1]
                 }
             })
-            console.log(am_besten_passend)
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
@@ -34,7 +33,6 @@ function suchen(suchtext) {
                     am_besten_passend = [differenz, element["ID"] - 1]
                 }
             })
-            console.log(am_besten_passend)
             if (am_besten_passend[1]) {
                 passend[am_besten_passend[1]] = 10 || (passend[am_besten_passend[1]] + 10)
             }
