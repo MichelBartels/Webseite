@@ -17,10 +17,10 @@ function suchen(suchtext) {
         if (suche_array[i].endsWith("m") || suche_array[i].endsWith("m2") || suche_array[i].endsWith("m²") || suche_array[i].endsWith("M") || suche_array[i].endsWith("M2") || suche_array[i].endsWith("M²")) {
             let groesse = parseInt(suche_array[i])
             let am_besten_passend = [Infinity, false]
-            abfrage.forEach(function(element) {
+            abfrage.forEach(function(element, index) {
                 element = element["Grundstueckgroesse"]
                 if (Math.abs(element - groesse) < am_besten_passend[0]) {
-                    am_besten_passend = [element - groesse, element["ID"]]
+                    am_besten_passend = [element - groesse, index + 1]
                 }
             })
             console.log(am_besten_passend)
