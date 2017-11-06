@@ -21,6 +21,9 @@
   position:absolute;
     color:white;
 }
+#Menue:hover #Innen{
+  visibility:collapse;
+}
 
 
 
