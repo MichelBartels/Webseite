@@ -127,10 +127,10 @@ ul {
 #suchergebnisse, #werbung_die_nicht_von_adblockern_geblockt_werden_soll {
     height: 85vh;
     box-sizing: border-box;
-    width: 100%;
+    width: 98%;
     overflow: hidden;
     top: 10vh;
-    left: 0;
+    right: 0;
     position: absolute;
 }
 #suchergebnisse {
