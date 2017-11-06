@@ -12,6 +12,7 @@
 }
 #Innen{
   visibility:collapse;
+  background-color:pink;
 }
 #Ausen{
   height:100%;
@@ -24,8 +25,14 @@
 #Menue:hover #Ausen{
   visibility:collapse;
 }
-
-
+#Menue:hover #Innen{
+  visibility:visible;
+  }
+#Menue:hover{
+  width:15vw;
+  transition:1s;
+  background-color:lightgray;
+}
 
 
 
