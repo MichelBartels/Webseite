@@ -12,6 +12,7 @@ body {
     padding: 15px;
     box-sizing: border-box;
     background-color: #ada9aa;
+    position: absolute;
 }
 #suche input {
     padding: 10px;
