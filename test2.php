@@ -5,7 +5,7 @@
 <body>
 <div id="Menue">
   <div id="Innen">
-    <div id="Ueberschrift"><b><u>B&B<br> Architekten</u></b></div>
+    <div id="Ueberschrift"><u>B&B<br> Architekten</u></div>
     <a href="index.php"><div id="Link1"><p>Startseite</p></div></a>
     <a href="index.php"><div id="Link1"><p>Warenkorb</p></div></a>
     <a href="index.php"><div id="Link2"><p>Anmeldung</p></div></a>
