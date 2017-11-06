@@ -93,8 +93,12 @@
   textdecoration:none;
 }
 
-
-
+#Bild{
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
+}
 
 
 
