@@ -6,6 +6,9 @@
         <script src="Ajax/Suche/suche.js"></script>
     </head>
     <body>
+        <?php
+            include "menue.html";
+        ?>
         <div id="suche">
             <input type="text" placeholder="Suchen" id="suchfeld">
         </div>
