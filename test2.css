@@ -27,7 +27,7 @@
 }
 #Menue:hover #Innen{
   visibility:visible;
-  transition-delay
+  transition-delay:1s;
   }
 #Menue:hover{
   width:15vw;
