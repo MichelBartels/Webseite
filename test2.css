@@ -13,7 +13,11 @@
 #Innen{
   visibility:collapse;
 }
-  
+#Ausen{
+  height:100%;
+  weidth:100%;
+  background-color:black;
+}
 
 
 
