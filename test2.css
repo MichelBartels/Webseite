@@ -33,13 +33,13 @@
 #Menue:hover{
   width:300px;
   transition:0.7s;
-  background-color:#949494;
+  background-color:black;
   border-width: 1px;
   border-right-style: solid;
   border-color: black;
 }
 #Link1{
-  background-color:lightblue;
+  background-color:white;
   height:7%;
   width:75%;
   position:relative;
@@ -62,7 +62,7 @@
   font-size: 50px;
 }
 #Link2{
-  background-color:lightblue;
+  background-color:white;
   height:7%;
   width:75%;
   position:relative;
