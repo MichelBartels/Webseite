@@ -51,7 +51,7 @@ nav h2 {
 	width: 20vw;
 	display: none;
 }
-#knopf:hover + #Menue{
+#knopf:hover #Menue{
 	display: block;
 }
 #Menue2 {
@@ -65,7 +65,7 @@ nav h2 {
 }
 #knopf{
 	width: 5vw;
-	height: 40vw;
+	height: 10vw;
 	
 	}
 #knopf:hover{visibility:collapse;}
