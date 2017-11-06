@@ -13,6 +13,9 @@
 #Innen{
   visibility:collapse;
   background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 #Ausen{
   width:100%;
