@@ -25,6 +25,7 @@
 }
 #Menue:hover #Ausen{
   visibility:collapse;
+  transition:0s;
 }
 #Menue:hover #Innen{
   visibility:visible;
