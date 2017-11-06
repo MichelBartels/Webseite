@@ -8,7 +8,7 @@
     <div id="Ueberschrift"><b><u>B&B<br> Architekten</u></b></div>
     <a href="index.php"><div id="Link1"><p>Startseite</p></div></a>
     <a href="index.php"><div id="Link1"><p>Warenkorb</p></div></a>
-    <a href="index.php"><div id="Link1"><p>Anmeldung</p></div></a>
+    <a href="index.php"><div id="Link2"><p>Anmeldung</p></div></a>
     <a href="index.php"><div id="Link2"><p>Werbepartner</p></div></a>
     <div id="Link1"><p>Bild</p></div>
   </div>
