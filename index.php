@@ -47,6 +47,9 @@
         </style>
     </head>
     <body>
+        <?php
+            include "menue.html";
+        ?>
         <a href="Skyrim_Website_mit_mooreschem_Gesetz/index.html" id="Skyrim">
             <p class="img">Skyrim</p>
             <p>Lerne viel &uuml;ber Skyrim</p>
