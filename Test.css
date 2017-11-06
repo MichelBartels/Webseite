@@ -66,5 +66,7 @@ span:hover + #Menue{
 #knopf{
 	width: 5vw;
 	height: 100vw;
+	
 	}
+#knopf:hover{visibility:collapse;}
 		
