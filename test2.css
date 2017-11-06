@@ -58,7 +58,8 @@
   text-decoration:none;
 }
 #Ueberschrift{
-  
+  text-align: center;
+  font-size: 10px;
 }
 #Link2{
   background-color:lightblue;
