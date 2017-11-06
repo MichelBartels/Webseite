@@ -39,10 +39,11 @@
 #Link1{
   background-color:lightblue;
   height:5%;
-  width:50%;
+  width:75%;
   position:relative;
-  margin-left:25%;
+  margin-left:12.5%;
   margin-top:5%;
+  font-size:20px
 }
 
 
