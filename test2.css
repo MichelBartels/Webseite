@@ -2,7 +2,7 @@
 #Menue{
   width:20px;
   height:100vh;
-  background-color:white;
+  background-color:black;
   color:black;
   position:absolute;
   left:0vw;
@@ -36,7 +36,7 @@
   background-color:#949494;
   border-width: 1px;
   border-right-style: solid;
-  border-color: black;
+  border-color: white;
 }
 #Link1{
   background-color:lightblue;
