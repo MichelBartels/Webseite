@@ -27,12 +27,14 @@
 }
 #Menue:hover #Innen{
   visibility:visible;
+  transition-delay
   }
 #Menue:hover{
   width:15vw;
   transition:1s;
   background-color:lightgray;
 }
+
 
 
 
