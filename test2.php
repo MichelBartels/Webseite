@@ -5,7 +5,7 @@
 <body>
 <div id="Menue">
   <div id="Innen">
-    <img id="Menuebild" src="Online-Shop (in Arbeit)/Bilder/Design/Logo Hochkant.png">
+    <div id="Menuebild"><img src="Online-Shop (in Arbeit)/Bilder/Design/Logo Hochkant.png"><div>
   </div>
   <div id="Ausen">
     Z<br><br>U<br><br>M<br><br><br>M<br><br>E<br><br>N<br><br>&Uuml;
