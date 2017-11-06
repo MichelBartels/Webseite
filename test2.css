@@ -13,7 +13,7 @@
 #Innen{
   visibility:collapse;
 }
-#Ausen{
+#Aussen{
   width:100%;
   background-color:black;
   top:15vw;
@@ -22,7 +22,7 @@
   text-align:center;
   transition-delay:0.7s;
 }
-#Menue:hover #Ausen{
+#Menue:hover #Aussen{
   visibility:collapse;
   transition:0s;
 }
@@ -38,7 +38,7 @@
   border-right-style: solid;
   border-color: black;
 }
-#Link1{
+.link{
   background-color:lightblue;
   height:7%;
   width:75%;
@@ -62,26 +62,7 @@
   text-align: center;
   font-size: 50px;
 }
-#Link2{
-  background-color:lightblue;
-  height:7%;
-  width:75%;
-  position:relative;
-  color:black;
-  margin-left:12.5%;
-  margin-top:14%;
-  font-size:1cm;
-  text-align:center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style:solid;
-  border-color:black;
-  border-width:2px;
-  border-radius:2px;
-  text-decoration:none;
-  font-family: calibri;
-}
+
 
 #Bild{
   background-color:lightblue;
