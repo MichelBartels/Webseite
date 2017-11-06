@@ -53,8 +53,7 @@
   justify-content: center;
   border-style:solid;
   border-color:black;
-  border-width:2px;
-  border-radius:2px;
+  border-width:1px;
   text-decoration:none;
   font-family: calibri;
 }
@@ -77,8 +76,7 @@
   justify-content: center;
   border-style:solid;
   border-color:black;
-  border-width:2px;
-  border-radius:2px;
+  border-width:1px;
   text-decoration:none;
   font-family: calibri;
 }
