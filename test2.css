@@ -12,7 +12,6 @@
 }
 #Innen{
   visibility:collapse;
-  background-color: white;
 }
 #Ausen{
   width:100%;
@@ -34,7 +33,7 @@
 #Menue:hover{
   width:300px;
   transition:0.7s;
-  background-color:white;
+  background-color:#949494;
   border-width: 1px;
   border-right-style: solid;
   border-color: black;
