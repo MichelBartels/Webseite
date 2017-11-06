@@ -34,7 +34,7 @@
   width:300px;
   transition:0.7s;
   background-color:white;
-  border-width: 1px;
+  border-width: 3px;
   border-right-style: solid;
   border-color: black;
 }
