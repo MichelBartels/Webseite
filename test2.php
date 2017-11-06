@@ -5,8 +5,7 @@
 <body>
 <div id="Menue">
   <div id="Innen">
-    link<br>
-    link<br>
+    <img id="Menuebild" src="Online-Shop (in Arbeit)/Bilder/Design/Logo Hochkant.png">
   </div>
   <div id="Ausen">
     Z<br><br>U<br><br>M<br><br><br>M<br><br>E<br><br>N<br><br>&Uuml;
