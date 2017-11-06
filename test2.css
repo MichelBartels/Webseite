@@ -21,7 +21,7 @@
   position:absolute;
     color:white;
   text-align:center;
-  transition-delay:0.1s;
+  transition-delay:0.2s;
 }
 #Menue:hover #Aussen{
   visibility:collapse;
@@ -29,11 +29,11 @@
 }
 #Menue:hover #Innen{
   visibility:visible;
-  transition-delay:0.1s;
+  transition-delay:0.2s;
   }
 #Menue:hover{
   width:300px;
-  transition:0.7s;
+  transition:0.2s;
   background-color:white;
   border-width: 3px;
   border-right-style: solid;
