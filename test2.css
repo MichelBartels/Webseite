@@ -54,6 +54,24 @@
   border-width:5px;
   border-radius:5px;
 }
+#Ueberschrift{
+  background-color:lightblue;
+  height:5%;
+  width:75%;
+  position:relative;
+  color:black;
+  margin-left:12.5%;
+  margin-top:5%;
+  font-size:1.3cm;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
+}
 
 
 
