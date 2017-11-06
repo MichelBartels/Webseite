@@ -44,7 +44,7 @@
   color:black;
   margin-left:12.5%;
   margin-top:5%;
-  font-size:1.3cm;
+  font-size:1.1cm;
   text-align:center;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@
   border-color:black;
   border-width:5px;
   border-radius:5px;
-  textdecoration:none;
+  text-decoration:none;
 }
 #Ueberschrift{
   background-color:lightblue;
@@ -81,7 +81,7 @@
   color:black;
   margin-left:12.5%;
   margin-top:5%;
-  font-size:1.1cm;
+  font-size:1cm;
   text-align:center;
   display: flex;
   align-items: center;
@@ -90,14 +90,14 @@
   border-color:black;
   border-width:5px;
   border-radius:5px;
-  textdecoration:none;
+  text-decoration:none;
 }
 
 #Bild{
-  border-style:solid;
   border-color:black;
   border-width:5px;
   border-radius:5px;
+  align-items: center;
 }
 
 
