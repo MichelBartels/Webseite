@@ -13,9 +13,6 @@
 #Innen{
   visibility:collapse;
   background-color: white;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
 }
 #Ausen{
   width:100%;
@@ -37,7 +34,10 @@
 #Menue:hover{
   width:300px;
   transition:0.7s;
-  background-color:lightgray;
+  background-color:white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 #Link1{
   background-color:lightblue;
