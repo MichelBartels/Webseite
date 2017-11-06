@@ -5,6 +5,7 @@
 <body>
 <div id="Menue">
   <div id="Innen">
+    <div id="Ueberschrift"><b><u>B&B<br> Architekten</u></b></div>
     <a href="index.php"><div id="Link1"><p>Startseite</p></div></a>
   </div>
   <div id="Ausen">
