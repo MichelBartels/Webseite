@@ -6,7 +6,8 @@ body {
 }
 #suche {
     margin: 0;
-    width: 100%;
+    width: 99%;
+    right: 0;
     height: 10vh;
     padding: 15px;
     box-sizing: border-box;
