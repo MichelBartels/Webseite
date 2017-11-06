@@ -20,7 +20,7 @@
   top:15vw;
   position:absolute;
     color:white;
-  text-algin:center;
+  text-align:center;
   transition-delay:0.7s;
 }
 #Menue:hover #Ausen{
@@ -36,7 +36,7 @@
   transition:0.7s;
   background-color:white;
   border-width: 2px;
-  border-style: solid;
+  border-right-style: solid;
   border-color: black;
 }
 #Link1{
