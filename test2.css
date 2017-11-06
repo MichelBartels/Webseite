@@ -40,7 +40,10 @@
   background-color:lightblue;
   height:5%;
   width:50%;
-
+  position:relative;
+  margin-left:25%;
+  margin-top:5%;
+}
 
 
 
