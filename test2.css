@@ -21,6 +21,7 @@
   position:absolute;
     color:white;
   text-algin:center;
+  transition-delay:0.7s;
 }
 #Menue:hover #Ausen{
   visibility:collapse;
