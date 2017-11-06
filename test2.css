@@ -32,7 +32,7 @@
   transition-delay:0.7s;
   }
 #Menue:hover{
-  width:15vw;
+  width:300px;
   transition:0.7s;
   background-color:lightgray;
 }
