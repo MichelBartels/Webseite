@@ -33,10 +33,10 @@
 #Menue:hover{
   width:300px;
   transition:0.7s;
-  background-color:#949494;
+  background-color:white;
   border-width: 1px;
   border-right-style: solid;
-  border-color: white;
+  border-color: black;
 }
 #Link1{
   background-color:lightblue;
