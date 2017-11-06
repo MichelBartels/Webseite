@@ -51,7 +51,7 @@ nav h2 {
 	width: 20vw;
 	display: none;
 }
-span:hover + #Menue{
+#knopf:hover + #Menue{
 	display: block;
 }
 #Menue2 {
