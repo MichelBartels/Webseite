@@ -8,7 +8,7 @@
   left:0vw;
   top:0vw;
   z-index:15;
-  transition:1s;
+  transition:0.2s;
 }
 #Innen{
   visibility:collapse;
@@ -27,11 +27,11 @@
 }
 #Menue:hover #Innen{
   visibility:visible;
-  transition-delay:1s;
+  transition-delay:0.2s;
   }
 #Menue:hover{
   width:15vw;
-  transition:1s;
+  transition:0.2s;
   background-color:lightgray;
 }
 
