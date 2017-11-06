@@ -46,7 +46,11 @@
   font-size:1.3cm;
   text-align:center;
 }
-
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
