@@ -39,11 +39,11 @@
   border-color: black;
 }
 #Link1{
-  background-color:white;
+  background-color:black;
   height:7%;
   width:75%;
   position:relative;
-  color:black;
+  color:white;
   margin-left:12.5%;
   margin-top:14%;
   font-size:1.1cm;
@@ -52,8 +52,8 @@
   align-items: center;
   justify-content: center;
   border-style:solid;
-  border-color:black;
-  border-width:1px;
+  border-color:white;
+  border-width:3px;
   text-decoration:none;
   font-family: calibri;
 }
