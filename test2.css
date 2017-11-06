@@ -53,7 +53,7 @@
   border-color:black;
   border-width:5px;
   border-radius:5px;
-  textdekoration:none;
+  textdecoration:none;
 }
 #Ueberschrift{
   background-color:lightblue;
@@ -73,7 +73,25 @@
   border-width:5px;
   border-radius:5px;
 }
-
+#Link2{
+  background-color:lightblue;
+  height:5%;
+  width:75%;
+  position:relative;
+  color:black;
+  margin-left:12.5%;
+  margin-top:5%;
+  font-size:1.1cm;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
+  textdecoration:none;
+}
 
 
 
