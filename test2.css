@@ -5,10 +5,11 @@
   background-color:black;
   color:black;
   position:absolute;
-  left:0vw;
-  top:0vw;
+  left:0;
+  top:0;
   z-index:15;
   transition:0.7s;
+  position: fixed;
 }
 #Innen{
   visibility:collapse;
