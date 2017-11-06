@@ -47,7 +47,7 @@ nav h2 {
 	background-color: lightblue;
 }
 #Menue {
-	height: 100vw;
+	height: 100vh;
 	width: 20vw;
 	display: none;
 }
@@ -65,7 +65,7 @@ nav h2 {
 }
 #knopf{
 	width: 5vw;
-	height: 10vw;
+	height: 10vh;
 	
 	}
 #knopf:hover{visibility:collapse;}
