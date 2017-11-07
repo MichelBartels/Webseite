@@ -1,0 +1,74 @@
+h1 {
+    top: 5vh;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    width: 80vw;  
+text-decoration:underline;
+ body {
+        font: normal 1em Helvetica, Arial, sans-serif;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+     nav ul {
+	width: 10em;
+	margin: 0;
+	padding: 0.2em 0.8em 0.8em;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+nav li {
+	list-style: none;
+	margin: 0.4em;
+	padding: 0;
+}
+
+nav a,
+nav span,
+nav h2 {
+	display: block;
+	padding: 0.4em;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid blue;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px white inset;
+	color: gold;
+	background-color: royalblue;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav span {
+	color: royalblue;
+	background-color: gold;
+	border-color: gold;
+}
+
+nav h2 {
+	font-size: 1em;
+	margin: 1.1em 0 0;
+	color: black;
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: none;
+}
+      }
+
+    #Menu {
+    width: 20vw;
+    height:100vw;
+    margin-left:0vw;
+    background-color:lightblue;
+    opacity:0.9;
+        
+    }
+    

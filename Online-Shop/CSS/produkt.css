@@ -1,0 +1,50 @@
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(232, 232, 255);
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 15vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#bilder {
+    width: 60vw;
+    height: 50vh;
+    top: 15vh;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#links, #rechts {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+#links {
+    left: 0;
+}
+#rechts {
+    right: 0;
+}
+#beschreibung {
+    position: absolute;
+    left: 60vw;
+    height: 50vw;
+    top: 15vh;
+    width: 40vw;
+    padding: 20px;
+    box-sizing: border-box;
+}

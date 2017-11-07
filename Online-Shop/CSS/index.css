@@ -1,0 +1,148 @@
+body {
+    background-color: #1e2529;
+    padding: 0;
+    margin: 0;
+    z-index: -20;
+}
+#suche {
+    margin: 0;
+    width: 99%;
+    right: 0;
+    height: 10vh;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #ada9aa;
+    position: absolute;
+}
+#suche input {
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+#werbung_die_nicht_von_adblockern_geblockt_werden_soll {
+    background-color: #e6e5ef;
+}
+#begruessung {
+    margin: 0;
+    text-align: center;
+    margin-top: 2%;
+    width: 100vw;
+    text-shadow: 4px 4px 10px black;
+}
+.werbeseite {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.weiter_button {
+    width: 5vh;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 150);
+    border-color: grey;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#weiter_rechts {
+    background-image: url(../Bilder/Design/rechts.svg);
+    right: 0;
+}
+#weiter_links {
+    background-image: url(../Bilder/Design/links.svg);
+}
+.hintergrund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+#werbeseite_1 {
+    background-image: url(../Bilder/Design/Werbung.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#qualitaet {
+    margin-left: 1vw;
+    width: 40vw;
+}
+#ziegelsteine {
+    position: absolute;
+    right: 8vw;
+    top: -5vh;
+    width: 40vw;
+}
+#qualitaet, #preis {
+    font-size: 20px;
+    text-align: center;
+}
+#preis {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    width: 45%;
+}
+#geld {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 20vw;
+}
+footer {
+    position: absolute;
+    top: 95vh;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+}
+#copyright {
+    position: absolute;
+    right: 4px;
+}
+ul li {
+    display: inline;
+    text-align: center;
+    color: white;
+}
+ul {
+    margin: 5px;
+}
+.werbeseite {
+    opacity: 0;
+}
+.werbeseite:first-child {
+    opacity: 1;
+}
+#suchergebnisse, #werbung_die_nicht_von_adblockern_geblockt_werden_soll {
+    height: 85vh;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    top: 10vh;
+    left: 20px;
+    position: absolute;
+}
+#suchergebnisse {
+    z-index: -1;
+}
+.suchergebnis {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: lightblue;
+    cursor: pointer;
+}
