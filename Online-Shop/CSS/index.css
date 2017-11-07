@@ -35,9 +35,9 @@ body {
     overflow: hidden;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 3%;
     height: 100%;
-    width: 100%;
+    width: 97%;
 }
 .weiter_button {
     width: 5vh;
