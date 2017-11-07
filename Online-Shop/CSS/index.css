@@ -69,8 +69,8 @@ body {
     z-index: -10;
 }
 #werbeseite_1 {
-    background-image: url(../Bilder/Design/Logoneu.png);
-   
+    background-image: url(../Bilder/Design/logoneu.png);
+    background-size: cover;
     background-position: center center;
 }
 #qualitaet {
