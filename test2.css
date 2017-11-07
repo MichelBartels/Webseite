@@ -1,77 +1,49 @@
 
 #Menue{
-  width:20px;
-  height:100vh;
+  width:1vw;
+  height:100vw;
   background-color:black;
   color:black;
   position:absolute;
-  left:0;
-  top:0;
+  left:0vw;
+  top:0vw;
   z-index:15;
-  transition:0.2s;
-  position: fixed;
+  transition:0.7s;
 }
 #Innen{
   visibility:collapse;
+  background-color:lightgray;
 }
-#Aussen{
+#Ausen{
   width:100%;
   background-color:black;
   top:15vw;
   position:absolute;
     color:white;
-  text-align:center;
-  transition-delay:0.2s;
+  text-algin:center;
+  transition-delay:0.7s;
 }
-#Menue:hover #Aussen{
+#Menue:hover #Ausen{
   visibility:collapse;
   transition:0s;
 }
 #Menue:hover #Innen{
   visibility:visible;
-  transition-delay:0.2s;
+  transition-delay:0.7s;
   }
 #Menue:hover{
   width:300px;
-  transition:0.2s;
-  background-color:white;
-  border-width: 3px;
-  border-right-style: solid;
-  border-color: black;
+  transition:0.7s;
+  background-color:lightgray;
 }
-.link{
+#Link1{
   background-color:lightblue;
-  height:7%;
+  height:5%;
   width:75%;
   position:relative;
   color:black;
   margin-left:12.5%;
-  margin-top:14%;
-  font-size:30px;
-  text-align:center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style:solid;
-  border-color:black;
-  border-width:2px;
-  border-radius:2px;
-  text-decoration:none;
-  font-family: calibri;
-}
-#Ueberschrift{
-  text-align: center;
-  font-size: 45px;
-}
-
-
-#Bild{
-  background-color:lightblue;
-  position:relative;
-  color:black;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:14%;
+  margin-top:5%;
   font-size:1.1cm;
   text-align:center;
   display: flex;
@@ -83,9 +55,61 @@
   border-radius:5px;
   text-decoration:none;
 }
-p{
-  text-decoration:none !important;
+#Ueberschrift{
+  background-color:lightblue;
+  height:5%;
+  width:75%;
+  position:relative;
+  color:black;
+  margin-left:12.5%;
+  margin-top:5%;
+  font-size:1.1cm;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
 }
-a{
-  text-decoration:none
+#Link2{
+  background-color:lightblue;
+  height:5%;
+  width:75%;
+  position:relative;
+  color:black;
+  margin-left:12.5%;
+  margin-top:5%;
+  font-size:1cm;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style:solid;
+  border-color:black;
+  border-width:5px;
+  border-radius:5px;
+  text-decoration:none;
 }
+
+#Bild{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
