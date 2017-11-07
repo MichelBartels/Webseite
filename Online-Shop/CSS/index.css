@@ -73,6 +73,11 @@ body {
     background-size: cover;
     background-position: center center;
 }
+#werbeseite_3 {
+    background-image: url(../Bilder/Design/logoneu.png);
+    background-size: cover;
+    background-position: center center;
+}
 #qualitaet {
     margin-left: 1vw;
     width: 40vw;
