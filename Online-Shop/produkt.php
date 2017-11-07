@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" href="CSS/produkt.css">
         <title>
+             <?php
+            include "menue.html";
+        ?>
             <?php
             $mysql = new mysqli("diff9.tk", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
             if ($mysql->connect_error) {
