@@ -22,6 +22,8 @@
                 <h2 id="preis">Wegen dieser Qualit&auml;t k&ouml;nnen wir es uns leisten, unsere Geb&auml;ude f&uuml;r 160% des Normalpreises zu verkaufen, aber uns liegt das Wohl der Kunden am Herzen und daher versichern wir Ihnen, unser Geb&auml;ude zu einem Preis von 80% des Normalpreises anzubieten.</h2>
                 <img id="geld" src="Bilder/Design/geld.png">
             </div>
+            <div class="werbeseite" id="werbeseite_3">
+            </div>
             <div id="weiter_rechts" class="weiter_button">
             </div>
             <div id="weiter_links" class="weiter_button">
