@@ -12,7 +12,7 @@
 </div>
 <style>
     #Menue{
-      width:35px;
+      width:20px;
       height:100vh;
       background-color:black;
       color:black;
@@ -20,9 +20,10 @@
       left:0;
       top:0;
       z-index:15;
-      transition:0.5s;
+      transition:0.2s;
       position: fixed;
       overflow: scroll;
+      border-width: 0px;
     }
     #Innen{
       visibility:collapse;
@@ -34,7 +35,7 @@
       position:absolute;
         color:white;
       text-align:center;
-      transition-delay:0.5s;
+      transition-delay:0.2s;
     }
     #Menue:hover #Aussen{
       visibility:collapse;
@@ -42,11 +43,11 @@
     }
     #Menue:hover #Innen{
       visibility:visible;
-      transition-delay:0.5s;
+      transition-delay:0.2s;
       }
     #Menue:hover{
       width:300px;
-      transition:0.5s;
+      transition:0.2s;
       background-color:white;
       border-width: 3px;
       border-right-style: solid;
