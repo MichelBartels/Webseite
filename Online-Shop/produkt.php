@@ -79,7 +79,7 @@
         <table>
             <?php
                 $schluessel = array_keys($anfrage);
-                for ($i = 0; $i < count($schluessel); $i++) {
+                for ($i = 0; $i < count($schluessel) - 1; $i++) {
                     echo "<tr><td>" . $schluessel[$i] . ": </td><td>" . $anfrage[$schluessel[$i]] . "</td></tr>";
                 }
             ?>
