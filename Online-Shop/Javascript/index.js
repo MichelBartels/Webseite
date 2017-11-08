@@ -68,7 +68,7 @@ suchfeld.addEventListener("input", function() {
     let suchergebnis_nodes = document.getElementsByClassName("suchergebnis")
     suchergebnisse.forEach(function(ergebnis) {
         document.getElementById("suchergebnis_" + ergebnis["ID"]).addEventListener("click", function() {
-            seite_aendern("http://35.157.66.141/Webseite/Online-Shop%20(in%20Arbeit)/produkt.php?id=" + ergebnis["ID"])
+            seite_aendern("http://35.157.66.141/Webseite/Online-Shop/produkt.php?id=" + ergebnis["ID"])
         })
     })
 })
