@@ -5,14 +5,14 @@
         <title>
              
             <?php
-            $mysql = new mysqli("diff9.tk", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
-            if ($mysql->connect_error) {
-                echo $mysql->connect_error;
-            }
-            $anfrage = $mysql->query("SELECT * FROM produkte WHERE ID = " . $_GET["id"]);
-            $anfrage = $anfrage->fetch_assoc();
-            $name = $anfrage["Name"];
-            echo $name;
+                $mysql = new mysqli("diff9.tk", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
+                if ($mysql->connect_error) {
+                    echo $mysql->connect_error;
+                }
+                $anfrage = $mysql->query("SELECT * FROM produkte WHERE ID = " . $_GET["id"]);
+                $anfrage = $anfrage->fetch_assoc();
+                $name = $anfrage["Name"];
+                echo $name;
             ?>
         </title>
         <script>
@@ -76,5 +76,13 @@
                 echo $anfrage["Beschreibung"];
             ?>
         </p>
+        <table>
+            <?php
+                $schluessel = array_keys($anfrage);
+                for ($i = 0; $i < count($schluessel); $i++) {
+                    echo "<tr><td>" . $schluessel[$i] . ": </td><td>" . $anfrage[$schluessel[$i]] . "</td></tr>";
+                }
+            ?>
+        </table>
     </body>
 </html>
