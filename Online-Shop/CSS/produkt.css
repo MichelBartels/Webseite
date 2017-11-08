@@ -42,10 +42,10 @@ body {
 }
 #beschreibung {
     position: absolute;
-    left: 60vw;
+    left: 63vw;
     height: 50vw;
     top: 15vh;
-    width: 40vw;
+    width: 37vw;
     padding: 20px;
     box-sizing: border-box;
 }
