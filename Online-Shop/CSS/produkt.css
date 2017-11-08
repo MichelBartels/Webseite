@@ -49,3 +49,8 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+table {
+    width: 80%;
+    top: 70%;
+    height: 27%;
+}
