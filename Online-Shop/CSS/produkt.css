@@ -57,7 +57,7 @@ table {
     position: absolute;
 }
 #kaufen {
-    position: absolute;
+    position: fixed;
     right: 4%;
     bottom: 2%;
     color: white;
@@ -74,3 +74,6 @@ table {
     background-color: #1b1b1b;
     outline-width: 4px;
 }
+#kaufen:active {
+    outline-color: black;
+    outline-width: 1px;
