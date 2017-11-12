@@ -1,5 +1,6 @@
 <?php
     session_start();
+    if 
     unset($_SESSION["Warenkorb"][$_GET["id"]]);
-    header("Location: " . $_SERVER["HTTP_HOST"] . $_GET["url"]);
+    header("Location: " . $_GET["url"]);
 ?>
