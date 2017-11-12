@@ -28,12 +28,12 @@
                         foreach ($_SESSION["Warenkorb"] as $id => $anzahl) {
                             $anfrage = $mysql->query("SELECT Name, Preis FROM produkte WHERE ID = " . $id);
                             $ergebnis = $anfrage->fetch_assoc();
-                            echo '<td class="name">' . $ergebnis["Name"] . '</td><td class="anzahl">' . $anzahl . '</td><td class="preis">' . number_format($ergebnis["Preis"], 2, ",", " ") . ' €</td>';
+                            echo '<td class="name">' . $ergebnis["Name"] . '</td><td class="anzahl">' . $anzahl . '</td><td class="preis">' . number_format($ergebnis["Preis"], 2, ",", " ") . ' €</td><td class="loeschen"><a href="warenkorb_leeren.php?url=index.php&id=' . $id . '"></a></td>';
                         }
                     ?>
                 </tr>
             </tbody>
         </table>
-        <a href="warenkorb_leeren.php?url=index.php" id="warenkorb_leeren">Warenkorb leeren</a>
+        <a href="warenkorb_leeren.php?url=index.php" id="warenkorb_leeren">Warenkorb komplett leeren</a>
     </body>
 </html>
