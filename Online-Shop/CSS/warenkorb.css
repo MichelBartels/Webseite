@@ -40,3 +40,12 @@ table {
     padding: 20px;
     color: black;
 }
+form {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 80%;
+}
+form input {
+    width: 100%;
+}
