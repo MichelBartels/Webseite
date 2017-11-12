@@ -84,5 +84,8 @@
                 }
             ?>
         </table>
+        <a id="kaufen" href="kaufen.php?id=<?php
+                 echo $_GET["id"];
+                 ?>">Kaufen</a>
     </body>
 </html>
