@@ -66,10 +66,11 @@ table {
     outline-style: solid;
     outline-width: 1px;
     outline-color: #0037ff;
-    transition: outline-color 200ms, background-color 200ms, color 250ms;
+    transition: outline-color 200ms, background-color 200ms, color 250ms, outline-width 300ms;
 }
 #kaufen:hover {
     outline-color: red;
     color: #dedede;
     background-color: #1b1b1b;
+    outline-width: 3px;
 }
