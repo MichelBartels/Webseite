@@ -1,3 +1,8 @@
 body {
   background-color: #718198;
 }
+h1 {
+  position: absolute;
+  top: 2%;
+  text-align: center;
+}
