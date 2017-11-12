@@ -26,7 +26,7 @@ table {
 }
 #warenkorb_leeren {
   position: absolute;
-  bottom: 5%;
+  bottom: 2%;
   left: 4%;
   background-color: red;
   padding: 20px;
