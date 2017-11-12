@@ -27,7 +27,7 @@
                     foreach ($_SESSION["Warenkorb"] as $id => $anzahl) {
                         $anfrage = $mysql->query("SELECT Name, Preis FROM produkte WHERE ID = " . $id);
                         $ergebnis = $anfrage->fetch_assoc();
-                        echo '<tr><td class="name">' . $ergebnis["Name"] . '</td><td class="anzahl">' . $anzahl . '</td><td class="preis">' . number_format($ergebnis["Preis"], 2, ",", " ") . ' €</td><td class="loeschen"><a href="warenkorb_leeren.php?url=index.php&id=' . $id . '">X</a></td></tr>';
+                        echo '<tr><td class="name">' . $ergebnis["Name"] . '</td><td class="anzahl">' . $anzahl . '</td><td class="preis">' . number_format($ergebnis["Preis"], 2, ",", " ") . ' €</td><td class="loeschen"><a href="warenkorb_leeren.php?url=warenkorb.php&id=' . $id . '">X</a></td></tr>';
                     }
                 ?>
             </tbody>
