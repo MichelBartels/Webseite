@@ -34,6 +34,6 @@
                 </tr>
             </tbody>
         </table>
-        <a href="warenkorb_leeren.php?url=warenkorb.php" id="warenkorb_leeren">Warenkorb leeren</a>
+        <a href="warenkorb_leeren.php?url=index.php" id="warenkorb_leeren">Warenkorb leeren</a>
     </body>
 </html>
