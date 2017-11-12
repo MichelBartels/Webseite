@@ -7,6 +7,6 @@
         <?php
             include "menue.html";
         ?>
-        
+        <h1>Warenkorb</h1>
     </body>
 </html>
