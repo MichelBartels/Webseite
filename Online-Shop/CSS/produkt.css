@@ -64,6 +64,12 @@ table {
     padding: 25px;
     background-color: black;
     border-style: solid;
-    border-width: 3px;
-    border-color: grey;
+    border-width: 1px;
+    border-color: #0037ff;
+    transition: border-color 200ms, background-color 100ms, color 150ms;
+}
+#kaufen:hover {
+    border-color: red;
+    color: #dedede;
+    background-color: #1b1b1b;
 }
