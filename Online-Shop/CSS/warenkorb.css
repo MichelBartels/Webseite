@@ -24,3 +24,10 @@ table {
 .preis {
   width: 20%;
 }
+#warenkorb_leeren {
+  position: absolute;
+  bottom: 5%;
+  left: 4%;
+  background-color: red;
+  padding: 20px;
+}
