@@ -6,6 +6,7 @@
         if (empty($_SESSION["Warenkorb"])) {
             unset($_SESSION["Warenkorb"]);
             $url = "index.php";
+        }
     } else {
         unset($_SESSION["Warenkorb"]);
     }
