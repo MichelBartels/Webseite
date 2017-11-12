@@ -60,6 +60,10 @@ table {
     position: absolute;
     right: 4%;
     bottom: 2%;
-    color: black;
+    color: white;
     padding: 25px;
+    background-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
 }
