@@ -9,7 +9,7 @@
             include "menue.html";
         ?>
         <h1>Bestellen</h1>
-        <form>
+        <form method="post" action="bestellt.php">
             <input name="name" placeholder="Name" required><br>
             <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required><br>
             <input name="adresse" placeholder="Adresse" required><br>
