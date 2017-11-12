@@ -66,7 +66,7 @@ table {
     outline-style: solid;
     outline-width: 1px;
     outline-color: #0037ff;
-    transition: outline-color 200ms, background-color 100ms, color 150ms;
+    transition: outline-color 200ms, background-color 200ms, color 250ms;
 }
 #kaufen:hover {
     outline-color: red;
