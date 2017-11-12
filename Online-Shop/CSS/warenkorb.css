@@ -27,6 +27,11 @@ table {
 .loeschen {
     width: 3%;
 }
+.loeschen a {
+    background-color: red;
+    padding: 5px;
+    color: black;
+}
 #warenkorb_leeren {
     position: absolute;
     bottom: 2%;
