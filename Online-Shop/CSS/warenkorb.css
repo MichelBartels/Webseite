@@ -1,34 +1,37 @@
 body {
-  background-color: #718198;
+    background-color: #718198;
 }
 h1 {
-  position: absolute;
-  top: 2%;
-  text-align: center;
-  left: 0;
-  width: 100%;
+    position: absolute;
+    top: 2%;
+    text-align: center;
+    left: 0;
+    width: 100%;
 }
 table {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  right: 5%;
-  width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
 }
 .name {
-  width: 60%;
+    width: 60%;
 }
 .anzahl {
-  width: 20%;
+    width: 20%;
 }
 .preis {
-  width: 20%;
+    width: 17%;
+}
+.loeschen {
+    width: 3%;
 }
 #warenkorb_leeren {
-  position: absolute;
-  bottom: 2%;
-  left: 4%;
-  background-color: red;
-  padding: 20px;
-  color: black;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    background-color: red;
+    padding: 20px;
+    color: black;
 }
