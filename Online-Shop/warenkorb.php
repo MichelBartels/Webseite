@@ -24,7 +24,6 @@
                         if ($mysql->connect_error) {
                             echo $mysql->connect_error;
                         }
-                        session_start();
                         $warenkorb = array();
                         foreach ($_SESSION["Warenkorb"] as $id => $anzahl) {
                             $anfrage = $mysql->query("SELECT Name, Preis FROM produkte WHERE ID = " . $id);
