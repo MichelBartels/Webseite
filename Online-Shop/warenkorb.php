@@ -1,4 +1,12 @@
-<?php
-    session_start();
-    print_r($_SESSION);
-?>
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/warenkorb.css">
+    </head>
+    <body>
+        <?php
+            include "menue.html";
+        ?>
+        
+    </body>
+</html>
