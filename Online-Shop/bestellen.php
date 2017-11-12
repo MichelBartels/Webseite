@@ -9,5 +9,8 @@
             include "menue.html";
         ?>
         <h1>Bestellen</h1>
+        <form>
+            <input name="name" placeholder="Name">
+            <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d">
     </body>
 </html>
