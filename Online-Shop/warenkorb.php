@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS/warenkorb.css">
+        <title>Warenkorb</title>
     </head>
     <body>
         <?php
