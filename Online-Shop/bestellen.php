@@ -11,7 +11,7 @@
         <h1>Bestellen</h1>
         <form>
             <input name="name" placeholder="Name" required><br>
-            <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required>
+            <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required><br>
             <input name="adresse" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required>
     </body>
 </html>
