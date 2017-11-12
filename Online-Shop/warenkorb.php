@@ -34,5 +34,6 @@
                 </tr>
             </tbody>
         </table>
+        <a id="warenkorb_leeren">Warenkorb leeren</a>
     </body>
 </html>
