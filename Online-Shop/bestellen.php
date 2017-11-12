@@ -12,7 +12,7 @@
         <form>
             <input name="name" placeholder="Name" required><br>
             <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required><br>
-            <input name="adresse" placeholder="Adresse" pattern="\d\d.\d\d.\d\d\d\d" required><br>
+            <input name="adresse" placeholder="Adresse" required><br>
             <input name="email" placeholder="Email-Adresse" type="email" required>
             <button type="submit">Kostenpflichtig bestellen</button>
         </form>
