@@ -63,13 +63,13 @@ table {
     color: white;
     padding: 25px;
     background-color: black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #0037ff;
-    transition: border-color 200ms, background-color 100ms, color 150ms;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #0037ff;
+    transition: outline-color 200ms, background-color 100ms, color 150ms;
 }
 #kaufen:hover {
-    border-color: red;
+    outline-color: red;
     color: #dedede;
     background-color: #1b1b1b;
 }
