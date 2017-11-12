@@ -77,3 +77,5 @@ table {
 #kaufen:active {
     outline-color: black;
     outline-width: 1px;
+    background-color: black;
+    color: #848484;
