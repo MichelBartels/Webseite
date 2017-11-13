@@ -13,6 +13,7 @@
 <html>
     <head>
         <title>Bestellung erfolgreich</title>
+        <meta http-equiv="refresh" content="5; URL="index.php">
         <style>
             h1 {
                 position: absolute;
