@@ -69,9 +69,9 @@ body {
     z-index: -10;
 }
 #werbeseite_1 {
-    background-image: url(../Bilder/Design/logoneu.png);
+/*    background-image: url(../Bilder/Design/logoneu.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 #werbeseite_3 {
     background-image: url(../Bilder/Design/logoneu.png);
