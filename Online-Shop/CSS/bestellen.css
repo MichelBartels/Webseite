@@ -23,7 +23,7 @@ input {
     outline-style: solid;
     outline-color: #619ce4;
     outline-width: 0;
-    transition: outline-width 50ms;
+    transition: outline-width 200ms;
 }
 input:hover {
     outline-width: 5px;
