@@ -69,7 +69,7 @@ body {
     z-index: -10;
 }
 #werbeseite_1 {
-    background: linear-gradient(-30deg, grey, white, grey, grey, grey, grey, yellow, blue, blue, grey, grey, grey, darkgrey, lightgrey, grey, grey, grey, yellow, blue, blue, grey, grey, grey);
+    background: linear-gradient(-30deg, lightgrey, white, lightgrey, lightgrey, lightgrey, lightgrey, yellow, blue, blue, lightgrey, lightgrey, lightgrey, darkgrey, white, lightgrey, lightgrey, lightgrey, yellow, blue, blue, lightgrey, lightgrey, lightgrey);
 }
 #werbeseite_3 {
     background-image: url(../Bilder/Design/logoneu.png);
