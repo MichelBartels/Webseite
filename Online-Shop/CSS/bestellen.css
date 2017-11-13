@@ -30,7 +30,7 @@ button {
     outline-width: 0;
     outline-style: solid;
     outline-color: white;
-    transition: outline-width 200ms, outline-color 300ms;
+    transition: outline-width 50ms, outline-color 300ms;
 }
 button:hover {
     outline-width: 2px;
