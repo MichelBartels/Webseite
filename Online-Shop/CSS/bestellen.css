@@ -13,6 +13,7 @@ form {
     top: 10%;
     left: 5%;
     width: 90%;
+    height: 90%;
 }
 form input {
     width: 100%;
@@ -22,4 +23,7 @@ form input {
 button {
     position: absolute;
     bottom: 5%;
+    right: 0;
+    border: none;
+    background-color: white;
 }
