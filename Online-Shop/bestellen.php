@@ -11,7 +11,7 @@
         <h1>Bestellen</h1>
         <form method="post" action="bestellt.php">
             <input name="name" placeholder="Name" required><br>
-            <input name="email" placeholder="Email-Adresse" type="email" required>
+            <input name="email" placeholder="Email-Adresse" pattern=".+@(michelbartels|web|t-online|yahoo|gmail|outlook|mail|email|gmx)\.(com|de|us|co|uk|co.uk)" required>
             <input name="geburtsdatum" placeholder="Geburtsdatum (TT.MM.JJJJ)" pattern="\d\d.\d\d.\d\d\d\d" required><br>
             <input name="strasse" placeholder="Stra&szlig;e und Hausnummer" pattern=".+ \d+" required><br>
             <input name="plz" placeholder="PLZ" pattern="\d\d\d\d\d" required><br>
