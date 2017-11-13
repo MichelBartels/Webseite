@@ -25,6 +25,15 @@ input {
 input::-webkit-input-placeholder {
     color: #252429;
 }
+input:-moz-placeholder {
+    color: #252429;
+}
+input::-moz-placeholder {
+    color: #252429;
+}
+input:-ms-input-placeholder {
+    color: #252429;
+}
 button {
     position: absolute;
     bottom: 5%;
