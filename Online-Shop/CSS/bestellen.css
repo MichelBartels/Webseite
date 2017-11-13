@@ -20,7 +20,14 @@ input {
     padding: 10px;
     margin: 5px;
     border: none;
-    
+    padding: 10px;
+    outline-style: solid;
+    outline-color: green;
+    outline-width: 0;
+    transition: outline-width 50ms;
+}
+input:hover {
+    outline-width: 2px;
 }
 input::-webkit-input-placeholder {
     color: #252429;
