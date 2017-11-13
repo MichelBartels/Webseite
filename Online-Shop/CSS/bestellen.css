@@ -19,3 +19,7 @@ form input {
     padding: 10px;
     margin: 5px;
 }
+button {
+    position: absolute;
+    bottom: 5%;
+}
