@@ -15,14 +15,14 @@ form {
     width: 90%;
     height: 90%;
 }
-form input {
+input {
     width: 100%;
     padding: 10px;
     margin: 5px;
     border: none;
     
 }
-form input::-webkit-input-placeholder, form input:-moz-placeholder, form input::-moz-placeholder, form input:-ms-input-placeholder {
+input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholder, input:-ms-input-placeholder {
     color: #252429;
 }
 button {
