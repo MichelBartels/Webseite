@@ -69,9 +69,7 @@ body {
     z-index: -10;
 }
 #werbeseite_1 {
-/*    background-image: url(../Bilder/Design/logoneu.png);
-    background-size: cover;
-    background-position: center center;*/
+    background: repeating-radial-gradient(grey, white, grey, grey, grey, grey, yellow, blue, blue, grey, grey, grey, darkgrey, lightgrey, grey, grey, grey, yellow, blue, blue, grey, grey, grey);
 }
 #werbeseite_3 {
     background-image: url(../Bilder/Design/logoneu.png);
