@@ -14,7 +14,7 @@
         </div>
         <div id="werbung_die_nicht_von_adblockern_geblockt_werden_soll">
             <div class="werbeseite" id="werbeseite_1">
-                <h1><span id="unterstrichen">B&amp;B<br>Architekten</span>Ihre Partner beim Bau<br>Ihres Eigenheims</h1>
+                <h1><span id="unterstrichen">B&amp;B<br>Architekten</span><span>Ihre Partner beim Bau<br>Ihres Eigenheims</span></h1>
             </div>
             <div class="werbeseite" id="werbeseite_2">
                 <h2 id="qualitaet">Egal, ob Sie sich ein kleines Gartenh&auml;uschen kaufen oder eine riesige Villa errichten lassen: Bei uns k&ouml;nnen Sie sich immer auf die Qualit&auml;t unserer Produkte verlassen, denn wir benutzen nur die besten Materialien.</h2>
