@@ -21,10 +21,7 @@
                 width: 100%;
                 height: 100%;
                 text-align: center;
-            }
-            body {
                 margin: 0;
-                padding: 0;
             }
         </style>
     </head>
