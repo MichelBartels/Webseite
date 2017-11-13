@@ -26,4 +26,16 @@ button {
     right: 0;
     border: none;
     background-color: white;
+    padding: 20px;
+    outline-width: 0;
+    outline-style: solid;
+    outline-color: white;
+    transition: outline-width 200ms, outline-color 300ms;
+}
+button:hover {
+    outline-width: 2px;
+}
+button:active {
+    outline-width: 3px;
+    outline-color: grey;
 }
