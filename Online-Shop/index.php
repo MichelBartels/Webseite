@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="CSS/index.css">
         <script src="Javascript/index.js" defer></script>
         <script src="Ajax/Suche/suche.js"></script>
+        <title>B&amp;B - Architekten</title>
     </head>
     <body>
         <?php
