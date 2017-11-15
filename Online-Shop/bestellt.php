@@ -1,5 +1,5 @@
 <?php
-    if(preg_match("<.+@(michelbartels|web|t-online|yahoo|gmail|outlook|mail|email|gmx)\.(com|de|us|co|uk|co.uk)>", $_POST["email"])) {
+    if(preg_match("<.+@(michelbartels|web|t-online|yahoo|gmail|outlook|mail|email|gmx|hotmail)\.(com|de|us|co|uk|co.uk)>", $_POST["email"])) {
         $mysql = new mysqli("18.194.170.23", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
         if ($mysql->connect_error) {
             echo $mysql->connect_error;
