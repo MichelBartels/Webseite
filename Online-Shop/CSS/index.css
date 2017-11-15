@@ -139,6 +139,7 @@ ul {
 }
 #suchergebnisse {
     z-index: -1;
+    overflow: scroll;
 }
 .suchergebnis {
     margin: 10px;
