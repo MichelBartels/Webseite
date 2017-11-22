@@ -10,5 +10,5 @@
         $gesamt[] = $zeile;
     }
     $mysql->close();
-    echo preg_replace("!\\r?\\n!", "", json_encode($gesamt, JSON_UNESCAPED_UNICODE));
+    echo preg_replace("\\r\\n", "", json_encode($gesamt, JSON_UNESCAPED_UNICODE));
 ?>
