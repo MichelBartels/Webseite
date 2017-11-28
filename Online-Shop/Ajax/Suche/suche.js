@@ -58,8 +58,5 @@ function suchen(suchtext) {
         sortiert.push(abfrage[schluessel])
         delete passend[schluessel]
     }
-    if (sortiert.length == 0) {
-        sortiert = abfrage
-    }
     return sortiert
 }
