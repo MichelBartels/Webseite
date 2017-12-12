@@ -7,10 +7,14 @@
     <?php
             include "menue.html";
         ?>
-    <div id="Ueberschrift">
+    <div id="Ueeberschrift">
       <u>Produktliste</u>
       </div>
+    <div id="Text">
     
+    </div id="Liste">
+    <
+    </div>
   </body>
   
 </html>
