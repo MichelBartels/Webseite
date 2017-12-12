@@ -4,6 +4,9 @@
    
   </head>
   <body>
+    <?php
+            include "menue.html";
+        ?>
     <div id="Ueberschrift">
       <u>Produktliste</u>
       </div>
