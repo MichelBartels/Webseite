@@ -11,18 +11,9 @@
       <u>Produktliste</u>
       </div>
     <div id="Text">
+    </div>
     
-    </div id="Liste">
-    <div id="Produkt">
-      
-    </div>
-    <div id="Produkt">
-      
-    </div>
-    <div id="Produkt">
-      
-    </div>
-    <div id="Produkt">
+    <div id="Liste">
       
     </div>
     
