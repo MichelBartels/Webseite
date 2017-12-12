@@ -4,6 +4,13 @@ body {
     margin: 0;
     z-index: -20;
 }
+#Ueberschrift {
+    font-style: oblique;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
