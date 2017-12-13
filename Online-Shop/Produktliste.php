@@ -3,14 +3,15 @@
      <link rel="stylesheet" href="CSS/Produktliste.css">
    
   </head>
-  <body>
+  <body id="body">
     <?php
             include "menue.html";
         ?>
     <div id="Ueeberschrift">
       <u>Produktliste</u>
       </div>
-    <div id="Text">
+    <div id="Texte">
+      Hir Sehen sie einen &Uuml;bersicht &uuml;ber all unsere Produkte
     </div>
     
     <div id="Liste">
