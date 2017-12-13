@@ -5,6 +5,7 @@
     z-index: -20;
 }
 #Ueeberschrift {
+    text-align: center;
     font-style: oblique;
     font-size: 80px;
     font-family: "Times New Roman";
@@ -25,7 +26,7 @@
     font-style: oblique;
     margin-left: auto;
     margin-right:auto;
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: auto;
     height: 10vw;
     width: 80vw;
