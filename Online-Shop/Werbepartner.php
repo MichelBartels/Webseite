@@ -5,6 +5,9 @@
         <link rel="stylesheet" href="CSS/Werbepartner.css">
     </head>
     <body>
+     <?php
+            include "menue.html";
+        ?>
         <h1>Unsere Partner beim Bau ihres Eigenheim</h3><br>
         <br>
         <h1> Ikea </h3><br>
@@ -23,6 +26,5 @@
         <div>Die Experten der OBI Gartenabteilung kümmern sich darum das das nach dem Bau ihres Hauses auch der Garten nicht zu kurz kommt
         (unverbindliche preisempfelung)</div><br>
         <br>
-        <div><center><a herf="http://diff9.tk/_Jahrgang_8(2016_17)/Michel_Robin/Online-Shop (in Arbeit)">Hir gehts zur&uuml;ck zur startseite</a> </center></div>
     </body>
 </html>
