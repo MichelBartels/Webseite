@@ -17,7 +17,7 @@
         Ikeafiliale in ihrer nähe (Klick auf das Bild um auf der Webseite Vorbezuschauen)</div>
         <br>
         <h1> EdelErden </h3><br>
-        <center><a href="../../Fabian&Nick Html/Onlineshop/"><img id="begrenzung" src="./Bilder/Design/edelerden2.jpg"></a></center><br>
+        <center><a href="http://diff9.tk/_Jahrgang_8(2016_17)/Fabian&Nick%20Html/Onlineshop/"><img id="begrenzung" src="./Bilder/Design/edelerden2.jpg"></a></center><br>
         <div id="DIV">EdelErden ist unser Korparationspartner für eine Gemeinsamme Zukunft.<br>
         Entdecken sie die erlesenzten Erden aus allen Ecken der Welt und Kaufen sie ein um sich selbst auch balt Erdprofi nenen zu können</div>
         <br>
