@@ -11,7 +11,7 @@
       <u>Produktliste</u>
       </div>
     <div id="Texte">
-      Hir Sehen sie einen &Uuml;bersicht &uuml;ber all unsere Produkte
+      Hir Sehen sie einen &Uuml;bersicht &uuml;ber all unsere Produkte . Alle angebote sind seri&ouml;s und unser über 50 Facharbeiter arbeiten Tag und Nacht um neue Knallerangebote f&uuml;r sie zu finden
     </div>
     
     <div id="Liste">
