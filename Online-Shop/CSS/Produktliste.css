@@ -27,13 +27,19 @@
     margin-left: auto;
     margin-right:auto;
     margin-top: 18px;
-    margin-bottom: auto;
+    margin-bottom: 10px;
     height: 10vw;
     width: 80vw;
     text-align: center;
     font-size: 21px;
 }
-
+.Produkt1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10vw;
+    width: 23vw;
 
 
 
