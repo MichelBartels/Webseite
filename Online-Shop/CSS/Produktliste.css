@@ -33,23 +33,14 @@
     text-align: center;
     font-size: 21px;
 }
- .Produkt1 {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 10vw;
-    width: 23vw;
+ .Produkt {
+    margin: 1%;
+    height: auto;
+    width: 30%;
     float: left;
 }
- #Bild1 {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 10vw;
-    width: 23vw;
-    float: left;
+ .Produkt img {
+    width:100%;
 }
 
 
