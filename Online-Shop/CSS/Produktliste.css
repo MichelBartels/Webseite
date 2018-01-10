@@ -34,9 +34,9 @@
     font-size: 21px;
 }
  .Produkt {
-    margin: 1%;
+    margin: 1% 0 1% 1% ;
     height: auto;
-    width: 30%;
+    width: 32%;
     float: left;
 }
  .Produkt img {
