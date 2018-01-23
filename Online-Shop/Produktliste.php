@@ -15,6 +15,9 @@
     </div>
     
     <div id="Liste">
+      <div class="Name">
+        Hemnis
+        </div>
       <div class="Produkt">
         <a href=""><img id="" src="./Bilder/Datenbank/Stadtvilla/creoplan_ag_stadtvilla_213_0_org_3.jpg
   "></a>
