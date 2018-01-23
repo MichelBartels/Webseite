@@ -38,11 +38,18 @@
     height: auto;
     width: 32%;
     float: left;
+    z-index0 ;
 }
  .Produkt img {
     width:100%;
 }
-
+.Name {
+    margin: 1% 0 1% 1% ;
+    height: auto;
+    width: 32%;
+    float: left;
+    z-index: 1;
+}
 
 
 
