@@ -42,6 +42,7 @@
 }
  .Produkt img {
     width:100%;
+    z-index: 0;
 }
 .Name {
     margin: 1% 0 1% 1% ;
