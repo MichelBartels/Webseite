@@ -46,8 +46,11 @@
 }
 .Name {
     z-index: 1;
-    margin-left: 5%;
-    margin-right: 2%;
+    margin: 1% 0 1% 1% ;
+    height: auto;
+    width: 32%;
+    float: left;
+    position: absolute;
 }
 
 
