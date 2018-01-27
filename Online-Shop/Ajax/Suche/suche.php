@@ -1,5 +1,5 @@
 <?php
-    $mysql = new mysqli("18.194.170.23", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
+    $mysql = new mysqli("sql11.freesqldatabase.com", "sql11218110", "ppxaC9ZDvG", "sql11218110");
     mysqli_set_charset($mysql, "utf8");
     if ($mysql->connect_error) {
         echo $mysql->connect_error;
