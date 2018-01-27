@@ -5,7 +5,7 @@
         <title>
              
             <?php
-                $mysql = new mysqli("diff9.tk", "michel", "SB4me8w8t7KcjYIq", "michel_robin");
+                $mysql = new mysqli("sql11.freesqldatabase.com", "sql11218110", "ppxaC9ZDvG", "sql11218110");
                 if ($mysql->connect_error) {
                     echo $mysql->connect_error;
                 }
