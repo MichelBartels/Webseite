@@ -5,7 +5,6 @@
   <title>Mindstorm projekt</title>
 </head>
 <body>
-   <div>
-   </div>
+   <h1>Lego-Mindstorm-NXT</h1>
 </body>
 </html>
