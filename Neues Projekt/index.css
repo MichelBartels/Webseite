@@ -4,6 +4,8 @@ body {
 ueberschrift {
   font-family: fantasy
     font-size: 10px;
-        width: 80vw;
-       height: 20vw;
+        width: 20vw;
+       height: 5vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
 }
