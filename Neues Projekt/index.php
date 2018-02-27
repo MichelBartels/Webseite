@@ -10,7 +10,7 @@
 </div>
    <div id="Texte">
       Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT im Rahmen des Informatikunterrichts
-      alls ersteswollen wir uns mitden Sensorendes NXT Bescüftigen
+      alls erstes wollen wir uns mit den Sensoren des NXT Besch&uaml;ftigen
 </div>
     <div id="Liste">
        <div/>
