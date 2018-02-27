@@ -29,4 +29,7 @@ body {
     margin-bottom: auto;
     height: 75vw;
     width: 80vw;
+    font-style: oblique;
+    text-align: center;
+    font-size: 21px;
 }
