@@ -9,8 +9,7 @@
       <u>Mindstorm NXT Sensorliste</u>
 </div>
    <div id="Texte">
-      Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT im Rahmen des Informatikunterrichts
-      alls erstes wollen wir uns mit den Sensoren des NXT Beschäftigen
+      Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT auf diesem Teil der seite Listen wir alle Sensoren und ihre Funktionen  
 </div>
     <div id="Liste">
        <div/>
