@@ -9,6 +9,8 @@
       <u>Mindstorm NXT Sensorliste</u>
 </div>
    <div id="Texte">
+      Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT im Rahmen des Informatikunterrichts
+      alls ersteswollen wir uns mitden Sensorendes NXT Bescüftigen
 </div>
     <div id="Liste">
        <div/>
