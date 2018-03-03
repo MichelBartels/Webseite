@@ -20,6 +20,7 @@ body {
     width: 80vw;
     text-align: center;
     font-size: 21px;
+  float: right;
 }
 #Liste {
     background-color: #D9D9D9;
@@ -36,8 +37,8 @@ body {
 #bild {
   left: 0;
   height: 10vw;
-  margin-right: 90vw;
   margin-left: 0vw;
+  float: left;
 }
   
   
