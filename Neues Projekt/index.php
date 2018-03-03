@@ -9,10 +9,10 @@
       <u>Mindstorm NXT Sensorliste</u>
 </div>
    <div id="Texte">
+      <img id="" src="unnamed.png">
       Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT<br> auf diesem Teil der seite Listen wir alle Sensoren und ihre Funktionen  
 </div>
     <div id="Liste">
-       <img id="" src="">
        Der Tastsensor gibt dem Roboter einen Tastsinn, er detektiert 1,wenn er betatigt wird und 0, wenn er wieder freigegeben ist.<br><br>
        <img id="" src="NXT-Touch-sensor.png">
        Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werdendurch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert,desto leiser ist die Tonquelle.
