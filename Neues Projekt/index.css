@@ -36,6 +36,8 @@ body {
 #bild {
   position: absolute;
   left: 0;
+  width: 10vw;
+  height: 10vw;
 }
   
   
