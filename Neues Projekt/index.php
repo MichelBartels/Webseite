@@ -10,14 +10,14 @@
 </div>
    <div id="Texte">
       <img id="bild" src="unnamed.png">
-      Auf dieser Webseite Bescheftigen wir uns mit dem Mindstorm NXT<br> auf diesem Teil der seite Listen wir alle Sensoren und ihre Funktionen  
+      Auf dieser Webseite beschäftigen wir uns mit dem Mindstorm NXT<br> in diesem Teil der Seite Listen wir alle Sensoren und ihre Funktionen auf  
 </div>
   
     <div id="Liste">
        
        <div id="Spalte">
        <img id="bild" src="NXT-Touch-sensor.png">
-       Der Tastsensor gibt dem Roboter einen Tastsinn, er detektiert 1,wenn er betatigt wird und 0, wenn er wieder freigegeben ist.
+       Durch den Tastsensor, erhält er Roboter einen Tastsinn, er detektiert 1, wenn er betätigt wird und 0, wenn er wieder freigegeben ist.
        </div>
           
        <div id="Spalte">   
