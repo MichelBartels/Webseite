@@ -34,10 +34,12 @@ body {
     font-size: 21px;
 }
 #bild {
+  position:relative;
   left: 0;
   height: 10vw;
   margin-left: 0vw;
-  float: left;
+ float:bottom;
+ float:left;
 }
 p {
   float: right;
