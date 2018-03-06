@@ -15,22 +15,22 @@
   
     <div id="Liste">
        
-       <div="Spalte">
+       <div id="Spalte">
        <img id="bild" src="NXT-Touch-sensor.png">
        Der Tastsensor gibt dem Roboter einen Tastsinn, er detektiert 1,wenn er betatigt wird und 0, wenn er wieder freigegeben ist.
        </div>
           
-       <div="Spalte">   
+       <div id="Spalte">   
        <img id="bild" src="NXT-Sound-Sensor.png">
        Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werdendurch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert,desto leiser ist die Tonquelle.
        </div>
         
-       <div="Spalte">   
+       <div id="Spalte">   
        <img id="bild" src="NXT-Light-Sensor.png">
        Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensitat in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen
        </div>
          
-       <div="Spalte">   
+       <div id="Spalte">   
        <img id="bild" src="NXT-Ultrasonic-Sensor.png">
        Der Ultraschallsensor ermöglicht dem Roboter Abstände zu Objekten zu berechnen, indem er die Zeit misst, die benötigt wird,bis eine von ihm ausgesendete Schallwelle an ein Objekt stösst und deren Echo wieder empfangen wird. Er misst Abstände in der Einheit Zentimeter oder Zoll und ist in der Lage Distanzen bis zu 255 cm mit einer Präzision von ± 3 cm zu messen.
        </div>
