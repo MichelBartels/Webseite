@@ -1,6 +1,12 @@
 body {
   background-color: #BEBEBE;
 }
+
+#Spalte {width: 100%;
+         height:20vh;
+         margin-top:0.5vh;
+}
+
 #Ueeberschrift {
     text-align: center;
     font-style: oblique;
