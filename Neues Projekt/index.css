@@ -12,7 +12,7 @@ body {
     text-align: center;
     font-style: oblique;
     font-size: 80px;
-    font-family: "Coiny";
+    font-family: "Arial Black";
     background-color:black;
     margin-top:0px;
     width:100vw;
@@ -31,7 +31,7 @@ body {
     width: 80vw;
     text-align: left;
     font-size: 21px;
-    font-family: "Impact";
+    font-family: "Arial Black";
 }
 #Liste {
     background-color:  #b6d3d8 ;
