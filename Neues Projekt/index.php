@@ -17,26 +17,26 @@
        
        <div id="Spalte">
        <img id="bild" src="NXT-Touch-sensor.png">
-       <i id="Schrift">Durch den Tastsensor, erhält er Roboter einen Tastsinn, er detektiert 1, wenn er betätigt wird und 0, wenn er wieder freigegeben ist.
-          </i>
+       Durch den Tastsensor, erhält er Roboter einen Tastsinn, er detektiert 1, wenn er betätigt wird und 0, wenn er wieder freigegeben ist.
+         
        </div>
           
        <div id="Spalte">   
        <img id="bild" src="NXT-Sound-Sensor.png">
-       <i id="Schrift">Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werden durch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert, desto leiser ist die Tonquelle.
-         </i>
+       Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werden durch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert, desto leiser ist die Tonquelle.
+      
        </div>
         
        <div id="Spalte">   
        <img id="bild" src="NXT-Light-Sensor.png">
-       <i id="Schrift">Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensität in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen.
-         </i>
+       Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensität in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen.
+       
        </div>
          
        <div id="Spalte">   
        <img id="bild" src="NXT-Ultrasonic-Sensor.png">
-       <i id="Schrift">Der Ultraschallsensor ermöglicht dem Roboter Abstände zu Objekten zu berechnen, indem er die Zeit misst, die benötigt wird, bis eine von ihm ausgesendete Schallwelle an ein Objekt stösst und deren Echo wieder empfangen wird. Er misst Abstände in der Einheit Zentimeter oder Zoll und ist in der Lage Distanzen bis zu 255 cm mit einer Präzision von ± 3 cm zu messen.
-         </i>
+       Der Ultraschallsensor ermöglicht dem Roboter Abstände zu Objekten zu berechnen, indem er die Zeit misst, die benötigt wird, bis eine von ihm ausgesendete Schallwelle an ein Objekt stösst und deren Echo wieder empfangen wird. Er misst Abstände in der Einheit Zentimeter oder Zoll und ist in der Lage Distanzen bis zu 255 cm mit einer Präzision von ± 3 cm zu messen.
+   
        </div>
        
        </div>
