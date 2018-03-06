@@ -21,7 +21,6 @@ body {
 }
 #Texte {
     background-color:   #d3dee0;
-    font-style: oblique;
     margin-left: auto;
     margin-right:auto;
     margin-top: 0vh;
@@ -40,7 +39,6 @@ body {
     margin-bottom: auto;
     height: 75vw;
     width: 80vw;
-    font-style: oblique;
     text-align: left;
     font-size: 20px;
     font-family: "Arial Black";
