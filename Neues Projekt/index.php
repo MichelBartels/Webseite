@@ -43,6 +43,7 @@
    <div id="Liste">
        
        <div id="Spalte">
+          <img id="bild" src="">
          Nun Zeigen wir ihnen einige scren shots um zu erlätern wie mann die sensoren Programirt bzw. Anwebdet
        </div>
           
