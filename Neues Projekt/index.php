@@ -65,13 +65,12 @@
        <div id="Spalte">   
        <img id="bild" src="4">
        Dieser Sensor trägt den Namen Geräusche-Sensor. <br>Man kann einstellen wie laut oder leise ein Geräusch (bsw. Klatschen oder ein Schrei) sein soll, damit der NXT den nächsten Befehl durchführt.  
-       
        </div>
+      
+     
        <div id="Spalte">   
        Dieser Sensor trägt den Namen Ultraschall-Sensor. <br>Man kann einstellen wie groß die Distanz zu einem anderen Objekt sein soll, damit der NXT den nächsten Befehl durchführt. 
        <img id="bild" src="5">
-      
-   
        </div>
 </div>
    
