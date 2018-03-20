@@ -44,26 +44,32 @@
        
        <div id="Spalte">
           <img id="bild" src="">
-         Nun Zeigen wir ihnen einige scren shots um zu erlätern wie mann die sensoren Programirt bzw. Anwebdet
+         Hier sind einige Bilder um zu erläutern, wie die verschiedenen Sensoren eingestellt und programmiert werden: 
        </div>
           
        <div id="Spalte">   
-       <img id="bild" src="">
+       <img id="bild" src="1">
       
        </div>
         
        <div id="Spalte">   
-       <img id="bild" src="">
+       <img id="bild" src="2">
        
        </div>
          
        <div id="Spalte">   
-       <img id="bild" src="">
+       <img id="bild" src="3">
    
        </div>
       
        <div id="Spalte">   
-       <img id="bild" src="">
+       <img id="bild" src="4">
+      
+   
+       </div>
+       <div id="Spalte">   
+       <img id="bild" src="5">
+      
    
        </div>
 </div>
