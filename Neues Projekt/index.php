@@ -74,11 +74,6 @@
           
        </div>
      
-       
-      <div id="Spalte">
-       Nun zeigen wir einige Ausschnitte, die veranschaulichen, wie man die unterschiedlichen Sensoren einstellen kann.  
-       </div>
-         
       
 </div>
    
