@@ -70,9 +70,16 @@
      
        <div id="Spalte">   
        <img id="bild" src="5"> 
-       Dieser Sensor trägt den Namen Ultraschall-Sensor. <br>Man kann einstellen wie groß die Distanz zu einem anderen Objekt sein soll, damit der NXT den nächsten Befehl durchführt. 
-      
+       Dieser Sensor trägt den Namen Ultraschall-Sensor. <br>Man kann einstellen wie groß die Distanz zu einem anderen Objekt sein soll, damit der NXT den nächsten Befehl durchführt.
+          
        </div>
+     
+       
+      <div id="Spalte">
+       Nun zeigen wir einige Ausschnitte, die veranschaulichen, wie man die unterschiedlichen Sensoren einstellen kann.  
+       </div>
+         
+      
 </div>
    
 </body>
