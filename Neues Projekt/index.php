@@ -18,7 +18,7 @@ au<!doctype html>
        <a href="Touch-sensor">
        <div id="Spalte">
        <img id="bild" src="NXT-Touch-sensor.png">
-       Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er wieder freigegeben ist.
+       Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
        </div>
        </a>
           
