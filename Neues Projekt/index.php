@@ -10,11 +10,9 @@
 </div>
    <div id="Texte">
       <img id="bild" src="unnamed.png">
-  
-      <p>
+ 
       Auf dieser Webseite beschäftigen wir uns mit dem Mindstorm NXT<br> in diesem Teil der Seite Listen wir alle Sensoren und ihre Funktionen auf  
-      </p>
-      
+     
    </div>
   
     <div id="Liste">
@@ -23,8 +21,12 @@
        <div id="Spalte">       
        <img id="bild" src="NXT-Touch-sensor.png">
        
+          <p>
          Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
-       </div>
+      </p>
+      
+      
+          </div>
        </a>
           
        <a href="Sound-Sensor.php">
