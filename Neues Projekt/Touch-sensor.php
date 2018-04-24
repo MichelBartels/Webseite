@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="touch-sensor.css">
   <title>Mindstorm projekt</title>
 </head>
 <body>
