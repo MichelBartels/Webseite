@@ -10,7 +10,7 @@
 </div>
    <div id="Texte">
       <img id="bild" src="unnamed.png">
- 
+      <br>
       Auf dieser Webseite beschäftigen wir uns mit dem Mindstorm NXT<br> in diesem Teil der Seite Listen wir alle Sensoren und ihre Funktionen auf  
      
    </div>
