@@ -42,37 +42,14 @@ au<!doctype html>
        </div>
    <div id="Liste">
        
-       <div id="Spalte">
-          <img id="bild" src="">
-         Hier sind einige Bilder um zu veranschaulichen, wie die verschiedenen Sensoren programmiert werden: 
-       </div>
-          
-       <div id="Spalte">   
-       <img id="bild" src="1">
-      Dieser Sensor trägt den Namen Zeit-Sensor.<br>Man kann eine Sekundenanzahl angeben. <br>Sobald diese Zeit abgewartet ist, führt der NXT den nächsten Befehl durch.
-       </div>
+   
         
        <div id="Spalte">   
        <img id="bild" src="2">
        Dieser Sensor trägt den Namen Berührungs-Sensor.<br>Man kann man die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.ä. ausgeführt folgt der nächsten Befehl. 
        </div>
          
-       <div id="Spalte">   
-       <img id="bild" src="3">
-       Dieser Sensor trägt den Namen Licht-Sensor.<br>Man kann einstellen, wie groß die Lichtdifferenz sein soll, damit der nächste Befehl durchgeführt wird. <br>Und ob eine eigene Lichtquelle an sein soll, damit bei schwachem/keinem Licht immer noch alles funktioniert.   
-       </div>
-      
-       <div id="Spalte">   
-       <img id="bild" src="4">
-       Dieser Sensor trägt den Namen Geräusche-Sensor. <br>Man kann einstellen wie laut oder leise ein Geräusch (bsw. Klatschen oder ein Schrei) sein soll, damit der NXT den nächsten Befehl durchführt.  
-       </div>
-      
-     
-       <div id="Spalte">   
-       <img id="bild" src="5"> 
-       Dieser Sensor trägt den Namen Ultraschall-Sensor. <br>Man kann einstellen wie groß die Distanz zu einem anderen Objekt sein soll, damit der NXT den nächsten Befehl durchführt.
-          
-       </div>
+    
      
       
 </div>
