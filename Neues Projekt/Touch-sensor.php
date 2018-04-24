@@ -1,4 +1,4 @@
-au<!doctype html>
+<!doctype html>
 <html>
 <head>
    <link rel="stylesheet" href="index.css">
@@ -20,7 +20,8 @@ au<!doctype html>
         
        <div id="Spalte">   
        <img id="bild" src="2">
-       Dieser Sensor trägt den Namen Berührungs-Sensor.<br>Man kann man die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.ä. ausgeführt folgt der nächsten Befehl. 
+      <br>
+       Dieser Sensor trägt den Namen Berührungs-Sensor.<br>Man kann man die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl. 
        </div>
          
     
