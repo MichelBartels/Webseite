@@ -32,8 +32,9 @@
        <a href="Sound-Sensor.php">
        <div id="Spalte">   
        <img id="bild" src="NXT-Sound-Sensor.png">
-       Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werden durch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert, desto leiser ist die Tonquelle.
-      
+       <p>
+          Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werden durch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert, desto leiser ist die Tonquelle.
+       </p>
        </div>
        </a>
           
