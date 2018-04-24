@@ -10,15 +10,20 @@
 </div>
    <div id="Texte">
       <img id="bild" src="unnamed.png">
+  
+      <p>
       Auf dieser Webseite beschäftigen wir uns mit dem Mindstorm NXT<br> in diesem Teil der Seite Listen wir alle Sensoren und ihre Funktionen auf  
-</div>
+      </p>
+      
+   </div>
   
     <div id="Liste">
        
        <a href="Touch-sensor.php">
-       <div id="Spalte">
+       <div id="Spalte">       
        <img id="bild" src="NXT-Touch-sensor.png">
-       Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
+       
+         Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
        </div>
        </a>
           
@@ -36,6 +41,7 @@
        <a href="Light-Sensor.php">
        <div id="Spalte">   
        <img id="bild" src="NXT-Light-Sensor.png">
+          
        Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensität in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen.
        
        </div>
