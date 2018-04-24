@@ -1,0 +1,75 @@
+body {
+  background-color:   #4b8993  ;
+}
+
+#Spalte {width: 100%;
+         height:20vh;
+         margin-top:0.5vh;
+         font-algin:left;
+}
+
+#Ueeberschrift {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Arial Black";
+    background-color: #4b8993 ;
+    margin-top:2vh;
+    width:100vw;
+    height:14vh;
+    color:white;
+  
+}
+#Texte {
+    background-color:   #d3dee0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0vh;
+    margin-bottom: 1px;
+    height: 10vw;
+    width: 80vw;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Arial Black";
+}
+#Liste {
+    background-color:   #d3dee0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80vh;
+    width: 80vw;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Arial Black";
+}
+#bild {
+  position:relative;
+  left: 0;
+  height: 10vw;
+  margin-left: 0vw;
+ float:bottom;
+ float:left;
+}
+p {
+  float: right;
+}
+
+#Schrift {
+  position: relative;
+    top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+a {
+ color:black;
+ text-decoration:none;	
+}
+
+
+p {
+
+ left:300px
+
+
+}
