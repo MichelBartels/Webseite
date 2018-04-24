@@ -45,7 +45,8 @@
        <a href="Light-Sensor.php">
        <div id="Spalte">   
        <img id="bild" src="NXT-Light-Sensor.png">
-          
+      
+       <br>   
        Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensität in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen.
        
        </div>
