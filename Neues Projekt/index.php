@@ -18,14 +18,14 @@
     <div id="Liste">
        
        <a href="Touch-sensor.php">
-       <div id="Spalte">       
+       <div id="Spalte">  
        <img id="bild" src="NXT-Touch-sensor.png">
        
         
-          <p>
+         
          Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
 
-          </p>
+        
     
           </div>
        </a>
@@ -35,10 +35,10 @@
        
           <img id="bild" src="NXT-Sound-Sensor.png">
        
-        <p>
+     
         Der Tonsensor kann sowohl unangepasste Dezibelwerte [dB] wie auch angepasste Dezibelwerte [dBA] ermitteln Die Einheit Dezibel ist ein Mass für den Schalldruckpegel, wobei Werte zwischen 55 dB und 90 dB gemessen werden konnen. Diese Messwerte werden durch den NXT in Prozenten ausgedruckt [%]. Je niedriger der Prozentwert, desto leiser ist die Tonquelle.
      
-        </p>
+ 
            
           </div>
        </a>
