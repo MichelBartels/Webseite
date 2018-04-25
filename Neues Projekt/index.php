@@ -22,8 +22,11 @@
        <img id="bild" src="NXT-Touch-sensor.png">
        
         <br>
+          <p>
          Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
 
+          </p>
+    
           </div>
        </a>
           
