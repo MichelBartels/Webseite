@@ -21,7 +21,7 @@
        <div id="Spalte">       
        <img id="bild" src="NXT-Touch-sensor.png">
        
-        <br>
+        
           <p>
          Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
 
@@ -50,7 +50,7 @@
        <div id="Spalte">   
        <img id="bild" src="NXT-Light-Sensor.png">
       
-       <br>   
+         
        Der Lichtsensor ermöglicht dem Roboter, zwischen Hell und Dunkel zu unterscheiden. Er kann die Lichtintensität in einem Raum (Helligkeit) oder einer farbigen Oberfläche messen.
        
        </div>
