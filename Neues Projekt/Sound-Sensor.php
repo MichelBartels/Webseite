@@ -8,7 +8,7 @@
 <body>
    <div id="Ueeberschrift">
       <u>Mindstorm NXT Sensorliste</u>
-
+   </div>
    
    <div id="Liste">
        
@@ -19,7 +19,7 @@
     
     Dieser Sensor trägt den Namen Geräusche-Sensor. Man kann einstellen wie laut oder leise ein Geräusch (bsw. Klatschen oder ein Schrei) sein soll, damit der NXT den nächsten Befehl durchführt.  
      
-      
+      </div>
 </div>
    
 </body>
