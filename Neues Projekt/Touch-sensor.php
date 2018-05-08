@@ -7,7 +7,7 @@
 <body>
    <div id="Ueeberschrift">
       <u>Mindstorm NXT Sensorliste</u>
-
+   </div>
   
    
    <div id="Liste">
