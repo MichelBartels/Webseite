@@ -21,12 +21,9 @@
    
         
        <div id="Spalte">   
-       <img id="bild" src="2.jpg">
+       <img id="bild" src="4.jpg">
       <br>
-       Dieser Sensor trägt den Namen Berührungs-Sensor.<br>Man kann man die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl. 
-       </div>
-         
-    
+    Dieser Sensor trägt den Namen Geräusche-Sensor. <br>Man kann einstellen wie laut oder leise ein Geräusch (bsw. Klatschen oder ein Schrei) sein soll, damit der NXT den nächsten Befehl durchführt.  
      
       
 </div>
