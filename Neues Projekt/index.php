@@ -23,7 +23,7 @@
        
         
        <br>  
-        Durch den Tastsensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
+        Durch den Berührungssensor, erhält er Roboter einen Tastsinn, <br> er detektiert 1, wenn er betätigt wird und 0, wenn er <br> wieder freigegeben ist.
 
         
     
