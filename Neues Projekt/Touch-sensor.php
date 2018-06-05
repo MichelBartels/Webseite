@@ -17,7 +17,7 @@
        <div id="Spalte">   
        <img id="bild" src="5.jpg">
     
-       Dieser Sensor trägt den Namen Berührungs-Sensor.<br>Man kann die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl. 
+       Dieser Sensor trägt den Namen Berührungssensor.<br>Man kann die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl. 
        </div>
          
     
