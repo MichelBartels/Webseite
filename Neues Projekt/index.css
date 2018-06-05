@@ -14,7 +14,9 @@ body {
     font-family: "Arial Black";
     background-color: #4b8993 ;
     margin-top:2vh;
-    text-decoration:none;	
+    text-decoration:underline;
+    text-decoration: overline;
+    text-decoration:line-through;
     width:100vw;
     height:14vh;
     color:#d3dee0;
