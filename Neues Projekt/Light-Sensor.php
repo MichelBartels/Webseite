@@ -17,7 +17,7 @@
        <div id="Spalte">   
        <img id="bild" src="2.jpg">
     
-      Dieser Sensor trägt den Namen Licht-Sensor. Man kann einstellen, wie groß die Lichtdifferenz sein soll, damit der nächste Befehl durchgeführt wird und ob eine eigene Lichtquelle an sein soll, damit bei schwachem/keinem Licht immer noch alles funktioniert.   
+      Dieser Sensor trägt den Namen Licht-Sensor. Man kann einstellen, wie groß die Lichtdifferenz sein soll, damit der nächste Befehl durchgeführt wird und ob eine eigene Lichtquelle an sein soll, damit bei schwachem/keinem Licht immer noch Alles funktioniert.   
        </div>
          
     
