@@ -3,7 +3,7 @@ body {
 }
 
 #Spalte {width: 100%;
-         height:20vh;
+         height:200px;
          margin-top:0.5vh;
          font-algin:left;
 }
@@ -16,7 +16,7 @@ body {
     margin-top:2vh;
     text-decoration:underline #4b8993;
     width:100vw;
-    height:14vh;
+    height:140px;
     color:#d3dee0;
   
 }
@@ -26,8 +26,8 @@ body {
     margin-right:auto;
     margin-top: 0vh;
     margin-bottom: 1px;
-    height: 10vw;
-    width: 80vw;
+    height: 200px;
+    width: 800px;
     text-align: left;
     font-size: 20px;
     font-family: "Arial Black";
@@ -38,8 +38,8 @@ body {
     margin-right:auto;
     margin-top: auto;
     margin-bottom: auto;
-    height: 80vh;
-    width: 80vw;
+    height: 800px;
+    width: 800px;
     text-align: left;
     font-size: 20px;
     font-family: "Arial Black";
@@ -47,7 +47,7 @@ body {
 #bild {
   position:relative;
   left: 0;
-  height: 10vw;
+  height: 150px;
   margin-left: 0vw;
  float:bottom;
  float:left;
