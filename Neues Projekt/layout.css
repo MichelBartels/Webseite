@@ -61,7 +61,7 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
     display: none;
     position: absolute;
     background-color:black;
-    min-width: 162px;
+    min-width: 330px;
     box-shadow: 1px 1px 1px black;
 	z-index: 10;
 	font-family: 'Roboto', sans-serif;
