@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-h1 {font-family: 'Fjalla One', sans-serif;
+h1 {font-family: 'Quicksand', sans-serif;
     font-size:60px; position:absolute; left:20px; position: relative;
     top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);
 	transform: translateY(-50%); color:black;  font-weight:lighter;}	
@@ -110,7 +110,7 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
 			
 #Überschrift i { color:white;}
 
-#Überschrift a {font-size:82px; cursor:text; font-family: 'Calligraffitti', cursive;}
+#Überschrift a {font-size:82px; cursor:text; font-family: 'Fjalla One', cursive;}
 			
 #Sticky {position:Sticky; background-color:black; height: 40px; width:100%; top:0%;
          opacity: 0.90; z-index: 10;}
