@@ -104,13 +104,13 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
  
  header { height: 100px; background-color:black; opacity:0.9; width:100%; z-index: 10; } 
  
- #Überschrift{font-size:82px; color:white; font-family: 'Indie Flower', cursive; font-style:italic;
+ #Überschrift{font-size:82px; color:white; font-family: 'Indie Flower';
               text-shadow:white 1px 1px 5px; width:1000px; margin-left:auto; margin-right:auto;
 			   position:relative; z-index: 10; left:45px; font-family: 'Fjalla One', cursive;}			  
 			
 #Überschrift i { color:white;}
 
-#Überschrift a {font-size:82px; cursor:text; font-family: 'Fjalla One', cursive;}
+#Überschrift a {font-size:82px; cursor:text; font-family: 'Fjalla One';}
 			
 #Sticky {position:Sticky; background-color:black; height: 40px; width:100%; top:0%;
          opacity: 0.90; z-index: 10;}
