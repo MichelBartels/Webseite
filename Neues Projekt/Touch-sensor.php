@@ -1,4 +1,4 @@
- <html>
+<html>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">     
 <link rel="stylesheet" href="layout.css">
@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">     
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
 <title>Mindstorms-Sensoren</title>
@@ -30,10 +31,12 @@ Mindstorms-Sensoren
 
 
 
+<a href="index.html">
 <div class="dropdown">
 <button class="dropbtn">
 Home
 </button>
+</a>
 
 <div class="dropdown-content">
 <a href="index.html">Mindstorms-Home </a>
@@ -49,7 +52,7 @@ Sensoren
 </button>
 <div class="dropdown-content">
 <div id="klein">
-<a href="sensoren.html">
+<a href="Produkte.php">
 Mehr Details
 </a>
 </div> 
@@ -91,15 +94,29 @@ Wünsche)
 </html>
 
 
-<div id="Artikel">
-<img src="5.jpg" alt="Bild kann nicht angezeigt werden" id="Gold">
-<h1>
-Dieser Sensor trägt den Namen Berührungssensor.<br>Man kann die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl.
-</h1>
+<div id="Box">
+
+
+<img src="5.jpg" >
+
+    
+
+
+
+
+
+<div id="Beschreibung">
+<h1>Berührungssensor</h1>
+<p>
+Dieser Sensor trägt den Namen Berührungssensor.
+Man kann die Art der Berührung einstellen (Druck, Freigabe, Stoß). Wird dieser Druck o.Ä. ausgeführt folgt der nächsten Befehl.
+</p>
 </div>
 
-<div id="Divbox">
-</div>
+
+
+
+
 
 <footer>
 <center>
@@ -109,4 +126,3 @@ Made by Fabian, Romy, Robin and Michel
 
 </body>
 </html>
-
