@@ -147,36 +147,33 @@ a {font-size:25px; text-decoration:none; color:white; z-index: 10; font-family: 
 </div>
 </header>
 
+
 <header id="Sticky">
 <header id="Navigation">
 
 
 
-<a href="index.php">
 <div class="dropdown">
 <button class="dropbtn">
 Home
 </button>
-</a>
 
 <div class="dropdown-content">
-<a href="index.php">EdelErden-Home </a>
-<div id="Leer">Hier ist nichts!</div>
-<a href="http://35.157.66.141/Webseite/Online-Shop">Werbepartner</a>
+<a href="index.html">Mindstorms-Home </a>
 </div>
 </div>
 
 
 
-<a href="Produkte.php">
+<a href="sensoren.html">
 <div class="dropdown">
 <button class="dropbtn">
-Produkte
+Sensoren
 </button>
 <div class="dropdown-content">
 <div id="klein">
-<a href="Produkte.php">
-Sehen sie sich alle Produkte an.
+<a href="sensoren.html">
+Mehr Details
 </a>
 </div> 
 </div>
@@ -185,14 +182,14 @@ Sehen sie sich alle Produkte an.
 
 
 
-<a href="mailto:schmiel767@gmail.com">
+<a href="mailto:login@michelbartels.com">
 <div class="dropdown">
 <button class="dropbtn">
 Kontakt
 </button>
 <div class="dropdown-content">
 <div id="klein">
-<a href="mailto:schmiel767@gmail.com">
+<a href="mailto:login@michelbartels.com">
 Mail an die Ersteller senden.
 (Fragen,
 Anregungen,
@@ -203,67 +200,6 @@ Wünsche)
 </div>
 </div>
 </a>
-
-
-<a href="Warenkorb.php">
-<div class="dropdown">
-<button class="dropbtn">
-Warenkorb
-</button>
-<div class="dropdown-content">
-Korb öffnen</a>
-<a href="Warenkorbleeren.php">Korb leeren</a>
-</div>
-</div>
-
-
-<div class="dropdown">
-<button class="dropbtn">Login</button>
-<div class="dropdown-content">
-
-<form method="POST">
-
-<input type="text" name="vorname" minlength="2" maxlength="25" 
-placeholder= Vorname id="input" required/>
-
-<input type="text" name="nachname" minlength="2" maxlength="25"
-placeholder= Nachname id="input" required/>
-
-<input type="text" name="adresse" minlength="2" maxlength="25"
- placeholder= Adresse id="input" required/>
- 
-<input type="email"  id="input" maxlength="25" name="mail" 
- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$" placeholder="E-Mail">
- 
-<input type="submit" value="Bestätigen" id="input"/>
-</form>
-
-<form action="Reset.php" method="POST">
-<input type="submit" value="Reset" id="input" />
-</form>
-
-</div>
-</div>
-
-
-<div class="dropdown">
-<button class="dropbtn">
-Suche 
-</button>
-<div class="dropdown-content">
-
-
-<form action="suche.php" method="POST" height="40px" >
-<datalist id="Produkte"> <option value="vergoldete Erde"><option value="Kaffeeerde">
-<option value="Zuckererde"><option value="schwerelose Erde"><option value="explosive Erde"> 
-<option value="Das Erde"><option value="kristallisierte Erde"><option value="lebende Erde">
-<option value="Holzerde"><option value="Schneeerde">     
-    
-</datalist> 
-
-<input type="search" list="Produkte" name="Suche" placeholder="Suchen... " id="input" />
-<input type="image" src="Bilder/Suche.png" width="25" height="25" id="Suchicon"> 
-</form>
 
 
 </div>
