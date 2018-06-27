@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
-<link rel="stylesheet" href="sensor.css">
+<link rel="stylesheet" href="css/index.css">
 
 
 </head>
@@ -272,11 +272,6 @@ Suche
 
 </header>
 </header>
-
-
-<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="000webhost logo" rel="nofollow" target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_campaign=ss-footer_logo&amp;utm_medium=000_logo&amp;utm_content=website"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png" alt="000webhost logo"></a></div></body>
-</html>
-
 
 
 
