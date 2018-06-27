@@ -273,8 +273,8 @@ Suche
 </header>
 </header>
 
-
-
+</body>
+</html>
 <div id="Box">
 <a href="Produkte.php">
 <div id="Bilder">
