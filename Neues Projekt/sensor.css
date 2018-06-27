@@ -1,41 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-h1 {font-family: 'Quicksand', sans-serif;
-    font-size:60px; position:absolute; left:20px; position: relative;
-    top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);
-	transform: translateY(-50%); color:black;  font-weight:lighter;}	
-
-#Artikel{width:1000px; height:500px; background-color:white; position:relative;
-         margin-top:130px; margin-left:auto; margin-right:auto; }
-		 
-img {position:absolute; overflow:hidden;  max-height:450px; right:0px; }
-
-
-#BreitSs {width:100%; height:200px; background-color:black; }
-
-#BreitSss {width:100%; height:100px; background-color:black; }
-
-#Farbverlauf   { background-image:linear-gradient(white, black); width:100%; height:200px;
-                 position:relative; top:100px;}
-
-#BreitS {width:100%; height:500px; background-color:black; position:relative; }	 
-
-#Schwarz{width:1015px; height:500px; background-color:black; position:relative; margin-top:0px;
-         margin-left:auto; margin-right:auto; font-family:Corbel;  }
-		 
-p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left:20px; position:relative;
-   color:white; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%);
-   transform: translateY(-50%); }	
- 
- footer {margin-top:0px; background-color: black; color:white; width:100%;
-         height:30px; position:relative; font-size:24px; font-family: 'Work Sans', sans-serif;}
-		 
-#dia {top:60px;}
-
-#Ed4 {top:60px; right:-100px;}
-
-#Gold {height:400px; top:20px;}
-
-#Breitw {width:100%; height:100px; }
 /* Aussehen Knopf */
 .dropbtn {
     background-color: black;
@@ -44,7 +6,7 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
     font-size: 25px;
     border: none;
     cursor: pointer;
-	width: 330px;
+	width: 162px;
 	height: 40px;
 	z-index: 10;
     font-family: 'Roboto', sans-serif;
@@ -56,21 +18,20 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
 	z-index: 10;
 }
 
-/* Dropdown MenÃ¼ */
+/* Dropdown Menü */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color:black;
-    min-width: 330px;
-    text-align: center;
+    min-width: 162px;
     box-shadow: 1px 1px 1px black;
 	z-index: 10;
 	font-family: 'Roboto', sans-serif;
-
+	
 }
 
 
-/* Links im MenÃ¼ */
+/* Links im Menü */
 .dropdown-content a {
     color: white;
     padding: 0px 0px;
@@ -85,7 +46,7 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
 /*Links bei hover */
 .dropdown-content a:hover {background-color:#060606;  }
 
-/* dropdown menÃ¼ bei hover */
+/* dropdown menü bei hover */
 .dropdown:hover .dropdown-content {
     display: block;
 	z-index: 10;
@@ -105,13 +66,13 @@ p {font-family: 'Quicksand', sans-serif; font-size:60px; position:absolute; left
  
  header { height: 100px; background-color:black; opacity:0.9; width:100%; z-index: 10; } 
  
- #Ãœberschrift{font-size:82px; color:white; font-family: 'Indie Flower';
-              text-shadow:white 1px 1px 3px; width:1000px; margin-left:auto; margin-right:auto;
-			   position:relative; z-index: 10; left:45px; font-family: 'Fjalla One', cursive;}			  
+ #Überschrift{font-size:82px; color:white; font-family: 'Indie Flower', cursive; font-style:italic;
+              text-shadow:white 1px 1px 5px; width:1000px; margin-left:auto; margin-right:auto;
+			   position:relative; z-index: 10; left:45px; font-family: 'Calligraffitti', cursive;}			  
 			
-#Ãœberschrift i { color:white;}
+#Überschrift i { color:white;}
 
-#Ãœberschrift a {font-size:82px; cursor:text; font-family: 'Fjalla One';}
+#Überschrift a {font-size:82px; cursor:text; font-family: 'Calligraffitti', cursive;}
 			
 #Sticky {position:Sticky; background-color:black; height: 40px; width:100%; top:0%;
          opacity: 0.90; z-index: 10;}
@@ -139,39 +100,66 @@ a {font-size:25px; text-decoration:none; color:white; z-index: 10; font-family: 
 
 #Leer {opacity:0;}
 
-#Box {width:1000px; height:800px; background-color:white; margin-left:auto; 
-      margin-right:auto; position:relative; margin-top:100px;}
-	 
-#Beschreibung {height:400px; width:400px; background-color:white; font-family: 'PT Sans', sans-serif;  }
-#Beschreibung2 {height:400px; width:600px; background-color:white; position:absolute;
-               left:0px; bottom:0px; font-family: 'PT Sans', sans-serif;}
 
-#Preis {height:400px; width:400px; background-color:white; position:absolute;
-        bottom:0px; right:0px;}
-
-#alterP {}	
-
-#neuerP {position:relative; font-family: 'Roboto', sans-serif; font-size:50px; top:40px;
+#Box {width:1000px; height:800px; background-color:white; margin-left:auto; margin-right:auto;
+      position:relative; margin-top:100px;}
+ 
+#Bilder {position:absolute; width:400px; height:400px; background-color:white; right:50px;
+         top:50px;
          }
 
-#Kaufen {font-size:20px; left:auto; left:auto; position:relative; background-color:black;
-         top:80px; height:60px; width:200px; border:none; color:white; opacity:0.9;
-		 font-family:Lucida Sans Unicode; cursor: pointer; border-width:5px;  
-		 border-radius:2px; transition: 1s;}		 
+#Ubers {position:absolute; width:450px; height:400px; background-color:white; left:50px; top:50px; }
+
+p {font-size:25px; text-decoration:none; padding-top:25px;
+   font-family: 'Quicksand', sans-serif;}
 		
-#Kaufen:hover {transition: 1s; border-radius:8px; border-style:solid; border-color:black;
-	           background-color:white; color:black;  }		
-		        
-				
-img {position:absolute; overflow:hidden;  max-height:400px; max-width:600px;
-     right:0px; top:0px; }
+h1 {font-size:35px; text-decoration:underline; padding-top:5px; 
+    font-family: 'Quicksand', sans-serif;}	
+		
+h1:first-letter{font-size:60px;}
+		
+#Beschreib {position:absolute; width:900px; height:250px; background-color:white; left:50px;            bottom:50px;}
 
 footer {margin-top:70px; background-color: black; opacity:0.9; color:white; width:100%;
-        height:30px; position:relative; font-size:24px; z-index:10; font-family: 'Work Sans', sans-serif;}
-		
-h1 {font-family: 'Montserrat', sans-serif; font-size:35px; position:absolute; position: relative;
-    color:black; padding:10px; font-weight: 100; font-size:50px; text-align:left;  text-decoration:underline; }
-	
-p {padding-left:10px; padding-right:10px; padding-top:19px; font-size:23px; 
-   font-family: 'PT Sans', sans-serif;}
-   
+        height:30px; position:relative; font-size:24px; z-index: 10; font-family: 'Work Sans', sans-serif;}
+
+figure {animation: wechseln 30s infinite;}
+
+img {max-height:400px; max-width:400px; overflow:hidden;}
+
+#Bilder figure {
+  animation: wechseln 30s infinite;
+}
+
+@keyframes wechseln {
+    0% {opacity: 1;}
+   25% {opacity: 1;}
+   40% {opacity: 0;}
+   92% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+#Bilder figure:nth-of-type(4) {
+  animation-delay: 5s;
+}
+#Bilder figure:nth-of-type(3) {
+  animation-delay: 10s;
+}
+#Bilder figure:nth-of-type(2) {
+  animation-delay: 15s;
+}
+#Bilder figure:nth-of-type(1) {
+  animation-delay: 20s;
+}
+
+#Bilder {
+  position: absolute;
+}
+
+#Bilder figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
