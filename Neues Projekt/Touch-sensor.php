@@ -20,7 +20,7 @@
 <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
-<title>EdelErden</title>
+<title>Mindstorms-Sensoren</title>
 <link rel="shortcut icon" type="image/x-icon" href="Bilder/Bild.jpg">
 <meta charset="utf-8">
 <style>
